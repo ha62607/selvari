@@ -1,0 +1,833 @@
+Fetching data from endpoint: https://api.fivaldi.net/customer/api/customers
+
+
+STATUS:200
+
+Fetching data from endpoint: https://api.fivaldi.net/customer/api/customers
+
+
+STATUS:200
+
+CustomerId: PLUSCOM
+
+/customer/api/companies?customerId=PLUSCOM
+
+Fetching data from endpoint: https://api.fivaldi.net/customer/api/companies?customerId=PLUSCOM
+
+
+STATUS:200
+
+Array
+(
+    [0] => stdClass Object
+        (
+            [companyId] => 229040
+            [databaseId] => fv_003
+            [cuid] => 4CAB3A6B56375BA1E0531100820AA764
+            [customerId] => PLUSCOM
+            [name1] => DEMOcom Oy
+            [name2] => LASKUJENSYÖTTÖ
+            [streetAddress] => Sammonkatu 19 H
+            [postalAddress] => 33540 TAMPERE
+            [countryId] => FI
+            [phone] => 000-123456
+            [fax] => 
+            [website] => 
+            [email] => pluscom@pluscom.fi
+            [businessId] => 2368003-7
+            [currency] => EUR
+            [city] => Tampere
+            [language] => FIN
+            [changeTime] => 26.02.2021 09:24:55
+        )
+
+    [1] => stdClass Object
+        (
+            [companyId] => 151118
+            [databaseId] => fv_003
+            [cuid] => 4CAB3A6D24485BA1E0531100820AA764
+            [customerId] => kirvestyo_hamma-1560
+            [name1] => Kirvestyö Hammarberg
+            [name2] => 
+            [streetAddress] => Vastamäentie 45
+            [postalAddress] => 34110 Lakiala
+            [countryId] => FI
+            [phone] => 040-5317189
+            [fax] => 
+            [website] => 
+            [email] => kirvestyo.hammarberg@gmail.com
+            [businessId] => 2812887-4
+            [currency] => EUR
+            [city] => Ylöjärvi
+            [language] => FIN
+            [changeTime] => 14.12.2017 21:30:56
+        )
+
+)
+
+ Let's get company vouchers with cuid: 4CAB3A6B56375BA1E0531100820AA764
+
+
+/customer/api/companies/4CAB3A6B56375BA1E0531100820AA764/bookkeeping/vouchers?startDate=2023-11-01&endDate=2023-11-30
+
+Fetching data from endpoint: https://api.fivaldi.net/customer/api/companies/4CAB3A6B56375BA1E0531100820AA764/bookkeeping/vouchers?startDate=2023-11-01&endDate=2023-11-30
+
+
+STATUS:200
+
+Array
+(
+    [0] => stdClass Object
+        (
+            [voucherType] => 8
+            [voucherTypeName] => Pkviennit
+            [voucherNumber] => 8231100001
+            [voucherDate] => 2023-11-01
+            [accountingPeriod] => 202311
+            [fiscalYearId] => 2023
+            [isDeleted] => 
+            [invoiceNumber] => 8989184
+            [voucherEntries] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [entryNumber] => 1
+                            [description] => R-kioski
+                            [amount] => 12.5
+                            [accountNumber] => 1777
+                            [accountName] => Selvittelytili
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [entryNumber] => 2
+                            [description] => R-kioski
+                            [amount] => -12.5
+                            [accountNumber] => 1910
+                            [accountName] => Pankkitili 1
+                        )
+
+                )
+
+        )
+
+    [1] => stdClass Object
+        (
+            [voucherType] => 8
+            [voucherTypeName] => Pkviennit
+            [voucherNumber] => 8231100002
+            [voucherDate] => 2023-11-02
+            [accountingPeriod] => 202311
+            [fiscalYearId] => 2023
+            [isDeleted] => 
+            [invoiceNumber] => 8989186
+            [voucherEntries] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [entryNumber] => 1
+                            [description] => Ilmarinen
+                            [amount] => 497.6
+                            [accountNumber] => 1777
+                            [accountName] => Selvittelytili
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [entryNumber] => 2
+                            [description] => Ilmarinen
+                            [amount] => -497.6
+                            [accountNumber] => 1910
+                            [accountName] => Pankkitili 1
+                        )
+
+                )
+
+        )
+
+    [2] => stdClass Object
+        (
+            [voucherType] => 8
+            [voucherTypeName] => Pkviennit
+            [voucherNumber] => 8231100003
+            [voucherDate] => 2023-11-02
+            [accountingPeriod] => 202311
+            [fiscalYearId] => 2023
+            [isDeleted] => 
+            [invoiceNumber] => 8989189
+            [voucherEntries] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [entryNumber] => 1
+                            [description] => J.Oikemus industries
+                            [amount] => -1250
+                            [accountNumber] => 1777
+                            [accountName] => Selvittelytili
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [entryNumber] => 2
+                            [description] => J.Oikemus industries
+                            [amount] => 1250
+                            [accountNumber] => 1910
+                            [accountName] => Pankkitili 1
+                        )
+
+                )
+
+        )
+
+    [3] => stdClass Object
+        (
+            [voucherType] => 8
+            [voucherTypeName] => Pkviennit
+            [voucherNumber] => 8231100004
+            [voucherDate] => 2023-11-06
+            [accountingPeriod] => 202311
+            [fiscalYearId] => 2023
+            [isDeleted] => 
+            [invoiceNumber] => 8989190
+            [voucherEntries] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [entryNumber] => 1
+                            [description] => Elisa
+                            [amount] => 34.9
+                            [accountNumber] => 1777
+                            [accountName] => Selvittelytili
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [entryNumber] => 2
+                            [description] => Elisa
+                            [amount] => -34.9
+                            [accountNumber] => 1910
+                            [accountName] => Pankkitili 1
+                        )
+
+                )
+
+        )
+
+    [4] => stdClass Object
+        (
+            [voucherType] => 8
+            [voucherTypeName] => Pkviennit
+            [voucherNumber] => 8231100005
+            [voucherDate] => 2023-11-16
+            [accountingPeriod] => 202311
+            [fiscalYearId] => 2023
+            [isDeleted] => 
+            [invoiceNumber] => 8989191
+            [voucherEntries] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [entryNumber] => 1
+                            [description] => Finnpark
+                            [amount] => 2.4
+                            [accountNumber] => 1777
+                            [accountName] => Selvittelytili
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [entryNumber] => 2
+                            [description] => Finnpark
+                            [amount] => -2.4
+                            [accountNumber] => 1910
+                            [accountName] => Pankkitili 1
+                        )
+
+                )
+
+        )
+
+    [5] => stdClass Object
+        (
+            [voucherType] => 8
+            [voucherTypeName] => Pkviennit
+            [voucherNumber] => 8231100006
+            [voucherDate] => 2023-11-24
+            [accountingPeriod] => 202311
+            [fiscalYearId] => 2023
+            [isDeleted] => 
+            [invoiceNumber] => 8989192
+            [voucherEntries] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [entryNumber] => 1
+                            [description] => Spotify
+                            [amount] => 9.9
+                            [accountNumber] => 1777
+                            [accountName] => Selvittelytili
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [entryNumber] => 2
+                            [description] => Spotify
+                            [amount] => -9.9
+                            [accountNumber] => 1910
+                            [accountName] => Pankkitili 1
+                        )
+
+                )
+
+        )
+
+    [6] => stdClass Object
+        (
+            [voucherType] => 8
+            [voucherTypeName] => Pkviennit
+            [voucherNumber] => 8231100007
+            [voucherDate] => 2023-11-29
+            [accountingPeriod] => 202311
+            [fiscalYearId] => 2023
+            [isDeleted] => 
+            [invoiceNumber] => 8989194
+            [voucherEntries] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [entryNumber] => 1
+                            [description] => Tampereen energia
+                            [amount] => 74.8
+                            [accountNumber] => 1777
+                            [accountName] => Selvittelytili
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [entryNumber] => 2
+                            [description] => Tampereen energia
+                            [amount] => -74.8
+                            [accountNumber] => 1910
+                            [accountName] => Pankkitili 1
+                        )
+
+                )
+
+        )
+
+    [7] => stdClass Object
+        (
+            [voucherType] => 8
+            [voucherTypeName] => Pkviennit
+            [voucherNumber] => 8231100008
+            [voucherDate] => 2023-11-30
+            [accountingPeriod] => 202311
+            [fiscalYearId] => 2023
+            [isDeleted] => 
+            [invoiceNumber] => 8989196
+            [voucherEntries] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [entryNumber] => 1
+                            [description] => Sponda
+                            [amount] => 750
+                            [accountNumber] => 1777
+                            [accountName] => Selvittelytili
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [entryNumber] => 2
+                            [description] => Sponda
+                            [amount] => -750
+                            [accountNumber] => 1910
+                            [accountName] => Pankkitili 1
+                        )
+
+                )
+
+        )
+
+)
+
+ Let's get company vouchers with cuid: 4CAB3A6D24485BA1E0531100820AA764
+
+
+/customer/api/companies/4CAB3A6D24485BA1E0531100820AA764/bookkeeping/vouchers?startDate=2023-11-01&endDate=2023-11-30
+
+Fetching data from endpoint: https://api.fivaldi.net/customer/api/companies/4CAB3A6D24485BA1E0531100820AA764/bookkeeping/vouchers?startDate=2023-11-01&endDate=2023-11-30
+
+
+STATUS:200
+
+Array
+(
+    [0] => stdClass Object
+        (
+            [voucherType] => 2
+            [voucherTypeName] => Suoritukset
+            [voucherNumber] => 2231100001
+            [voucherDate] => 2023-11-06
+            [accountingPeriod] => 202311
+            [fiscalYearId] => 2023
+            [isDeleted] => 
+            [voucherEntries] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [entryNumber] => 1
+                            [description] => Lasku 6023100002
+                            [amount] => -2772
+                            [accountNumber] => 1701
+                            [accountName] => Myyntisaamiset, iso reskontra
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [entryNumber] => 1
+                            [description] => TAMPEREEN TA [11065UTZ00355888]
+                            [amount] => 2772
+                            [accountNumber] => 1799
+                            [accountName] => Välitili, myyntireskontra
+                        )
+
+                )
+
+        )
+
+    [1] => stdClass Object
+        (
+            [voucherType] => 2
+            [voucherTypeName] => Suoritukset
+            [voucherNumber] => 2231100002
+            [voucherDate] => 2023-11-10
+            [accountingPeriod] => 202311
+            [fiscalYearId] => 2023
+            [isDeleted] => 
+            [voucherEntries] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [entryNumber] => 1
+                            [description] => Lasku 6023110001
+                            [amount] => -1540
+                            [accountNumber] => 1701
+                            [accountName] => Myyntisaamiset, iso reskontra
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [entryNumber] => 1
+                            [description] => TAMPEREEN TA [11105UTZ00174465]
+                            [amount] => 1540
+                            [accountNumber] => 1799
+                            [accountName] => Välitili, myyntireskontra
+                        )
+
+                )
+
+        )
+
+    [2] => stdClass Object
+        (
+            [voucherType] => 2
+            [voucherTypeName] => Suoritukset
+            [voucherNumber] => 2231100003
+            [voucherDate] => 2023-11-27
+            [accountingPeriod] => 202311
+            [fiscalYearId] => 2023
+            [isDeleted] => 
+            [voucherEntries] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [entryNumber] => 1
+                            [description] => Lasku 6023110002
+                            [amount] => -3003
+                            [accountNumber] => 1701
+                            [accountName] => Myyntisaamiset, iso reskontra
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [entryNumber] => 1
+                            [description] => TAMPEREEN TA [11275UTZ00093505]
+                            [amount] => 3003
+                            [accountNumber] => 1799
+                            [accountName] => Välitili, myyntireskontra
+                        )
+
+                )
+
+        )
+
+    [3] => stdClass Object
+        (
+            [voucherType] => 5
+            [voucherTypeName] => Ostolaskut
+            [voucherNumber] => 5231100001
+            [voucherDate] => 2023-11-07
+            [accountingPeriod] => 202311
+            [fiscalYearId] => 2023
+            [isDeleted] => 
+            [voucherEntries] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [entryNumber] => 1
+                            [description] => PLUSCOM TALOUSHALLINTO OY (1024) 
+                            [amount] => -13.33
+                            [accountNumber] => 2871
+                            [accountName] => Ostovelat, iso reskontra
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [entryNumber] => 2
+                            [description] => PLUSCOM TALOUSHALLINTO OY (1024) Autoinvoice lähetys/vastaanotto
+                            [amount] => 5.15
+                            [accountNumber] => 8380
+                            [accountName] => Taloushallintopalvelut
+                            [vat] => stdClass Object
+                                (
+                                    [vatCode] => U
+                                    [vatAmount] => 1.25
+                                    [vatAccount] => 1763
+                                    [vatAccountName] => Ostojen arvonlisäverosaamiset
+                                )
+
+                        )
+
+                    [2] => stdClass Object
+                        (
+                            [entryNumber] => 2
+                            [description] => PLUSCOM TALOUSHALLINTO OY (1024) Autoinvoice lähetys/vastaanotto
+                            [amount] => 5.59
+                            [accountNumber] => 8380
+                            [accountName] => Taloushallintopalvelut
+                            [vat] => stdClass Object
+                                (
+                                    [vatCode] => U
+                                    [vatAmount] => 1.34
+                                    [vatAccount] => 1763
+                                    [vatAccountName] => Ostojen arvonlisäverosaamiset
+                                )
+
+                        )
+
+                    [3] => stdClass Object
+                        (
+                            [entryNumber] => 3
+                            [description] => Vero
+                            [amount] => 2.59
+                            [accountNumber] => 1763
+                            [accountName] => Ostojen arvonlisäverosaamiset
+                        )
+
+                )
+
+        )
+
+    [4] => stdClass Object
+        (
+            [voucherType] => 5
+            [voucherTypeName] => Ostolaskut
+            [voucherNumber] => 5231100002
+            [voucherDate] => 2023-11-13
+            [accountingPeriod] => 202311
+            [fiscalYearId] => 2023
+            [isDeleted] => 
+            [voucherEntries] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [entryNumber] => 1
+                            [description] => J&S HAPPONEN OY (1027) 
+                            [amount] => -47.74
+                            [accountNumber] => 2871
+                            [accountName] => Ostovelat, iso reskontra
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [entryNumber] => 2
+                            [description] => J&S HAPPONEN OY (1027) 
+                            [amount] => 38.5
+                            [accountNumber] => 4000
+                            [accountName] => Ostot alv 24 %
+                            [vat] => stdClass Object
+                                (
+                                    [vatCode] => U
+                                    [vatAmount] => 9.24
+                                    [vatAccount] => 1763
+                                    [vatAccountName] => Ostojen arvonlisäverosaamiset
+                                )
+
+                        )
+
+                    [2] => stdClass Object
+                        (
+                            [entryNumber] => 3
+                            [description] => Vero
+                            [amount] => 9.24
+                            [accountNumber] => 1763
+                            [accountName] => Ostojen arvonlisäverosaamiset
+                        )
+
+                )
+
+        )
+
+    [5] => stdClass Object
+        (
+            [voucherType] => 6
+            [voucherTypeName] => Maksut
+            [voucherNumber] => 6231100001
+            [voucherDate] => 2023-11-13
+            [accountingPeriod] => 202311
+            [fiscalYearId] => 2023
+            [isDeleted] => 
+            [voucherEntries] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [entryNumber] => 1
+                            [description] => Kuittaus 5231000003
+                            [amount] => 338.97
+                            [accountNumber] => 2871
+                            [accountName] => Ostovelat, iso reskontra
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [entryNumber] => 1
+                            [description] => maksu 5231000003
+                            [amount] => -338.97
+                            [accountNumber] => 2899
+                            [accountName] => Välitili, ostoreskontra
+                        )
+
+                )
+
+        )
+
+    [6] => stdClass Object
+        (
+            [voucherType] => 6
+            [voucherTypeName] => Maksut
+            [voucherNumber] => 6231100002
+            [voucherDate] => 2023-11-20
+            [accountingPeriod] => 202311
+            [fiscalYearId] => 2023
+            [isDeleted] => 
+            [voucherEntries] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [entryNumber] => 1
+                            [description] => maksu 5231000002
+                            [amount] => -172.29
+                            [accountNumber] => 2899
+                            [accountName] => Välitili, ostoreskontra
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [entryNumber] => 1
+                            [description] => Kuittaus 5231000002
+                            [amount] => 172.29
+                            [accountNumber] => 2871
+                            [accountName] => Ostovelat, iso reskontra
+                        )
+
+                )
+
+        )
+
+    [7] => stdClass Object
+        (
+            [voucherType] => 6
+            [voucherTypeName] => Maksut
+            [voucherNumber] => 6231100003
+            [voucherDate] => 2023-11-29
+            [accountingPeriod] => 202311
+            [fiscalYearId] => 2023
+            [isDeleted] => 
+            [voucherEntries] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [entryNumber] => 1
+                            [description] => Kuittaus 5231100001
+                            [amount] => 13.33
+                            [accountNumber] => 2871
+                            [accountName] => Ostovelat, iso reskontra
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [entryNumber] => 1
+                            [description] => maksu 5231100001
+                            [amount] => -13.33
+                            [accountNumber] => 2899
+                            [accountName] => Välitili, ostoreskontra
+                        )
+
+                )
+
+        )
+
+    [8] => stdClass Object
+        (
+            [voucherType] => 6
+            [voucherTypeName] => Maksut
+            [voucherNumber] => 6231100004
+            [voucherDate] => 2023-11-29
+            [accountingPeriod] => 202311
+            [fiscalYearId] => 2023
+            [isDeleted] => 
+            [voucherEntries] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [entryNumber] => 1
+                            [description] => Kuittaus 5231100002
+                            [amount] => 47.74
+                            [accountNumber] => 2871
+                            [accountName] => Ostovelat, iso reskontra
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [entryNumber] => 1
+                            [description] => maksu 5231100002
+                            [amount] => -47.74
+                            [accountNumber] => 2899
+                            [accountName] => Välitili, ostoreskontra
+                        )
+
+                )
+
+        )
+
+    [9] => stdClass Object
+        (
+            [voucherType] => 60
+            [voucherTypeName] => Myynninhallinta
+            [voucherNumber] => 6023110001
+            [voucherDate] => 2023-11-03
+            [accountingPeriod] => 202311
+            [fiscalYearId] => 2023
+            [isDeleted] => 
+            [voucherEntries] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [entryNumber] => 1
+                            [description] => Tampereen Tasorakennus Oy  (1036) 
+                            [amount] => 1540
+                            [accountNumber] => 1701
+                            [accountName] => Myyntisaamiset, iso reskontra
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [entryNumber] => 2
+                            [description] => Kirvestyö * 40, Tampereen Tasorakennus Oy 
+                            [amount] => -1540
+                            [accountNumber] => 3090
+                            [accountName] => Rakentamispalvelu myynti
+                            [vat] => stdClass Object
+                                (
+                                    [vatCode] => u
+                                    [vatAmount] => 0
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [10] => stdClass Object
+        (
+            [voucherType] => 60
+            [voucherTypeName] => Myynninhallinta
+            [voucherNumber] => 6023110002
+            [voucherDate] => 2023-11-03
+            [accountingPeriod] => 202311
+            [fiscalYearId] => 2023
+            [isDeleted] => 
+            [voucherEntries] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [entryNumber] => 1
+                            [description] => Tampereen Tasorakennus Oy  (1036) 
+                            [amount] => 3003
+                            [accountNumber] => 1701
+                            [accountName] => Myyntisaamiset, iso reskontra
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [entryNumber] => 2
+                            [description] => Kirvestyö * 78, Tampereen Tasorakennus Oy 
+                            [amount] => -3003
+                            [accountNumber] => 3090
+                            [accountName] => Rakentamispalvelu myynti
+                            [vat] => stdClass Object
+                                (
+                                    [vatCode] => u
+                                    [vatAmount] => 0
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [11] => stdClass Object
+        (
+            [voucherType] => 60
+            [voucherTypeName] => Myynninhallinta
+            [voucherNumber] => 6023110003
+            [voucherDate] => 2023-11-24
+            [accountingPeriod] => 202311
+            [fiscalYearId] => 2023
+            [isDeleted] => 
+            [voucherEntries] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [entryNumber] => 1
+                            [description] => Tampereen Tasorakennus Oy  (1036) 
+                            [amount] => 1540
+                            [accountNumber] => 1701
+                            [accountName] => Myyntisaamiset, iso reskontra
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [entryNumber] => 2
+                            [description] => Kirvestyö * 40, Tampereen Tasorakennus Oy 
+                            [amount] => -1540
+                            [accountNumber] => 3090
+                            [accountName] => Rakentamispalvelu myynti
+                            [vat] => stdClass Object
+                                (
+                                    [vatCode] => u
+                                    [vatAmount] => 0
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+

@@ -1,0 +1,570 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.b-example-vr {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+}
+
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+}
+
+.nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+
+
+@media (max-width: 767px)
+{
+    .banklistimg
+    {
+        max-width: 150px;
+        margin: 15px;
+    }
+    .loginbutton_mobile
+    {
+        display: inline-block;
+        margin-left: auto;
+        marrin-right: auto;
+        background-color: white;
+        border: 1px solid green;
+        color: green;
+        min-width: 200px;
+        margin-bottom: 20px;
+    }
+
+    .loginbutton_desktop
+    {
+        display: none;
+    }
+
+    .monthrow
+    {
+        text-align: center;
+        margin-bottom:15px;
+    }
+
+    .kassarow
+    {
+        display: none;
+        text-align: center;
+        margin-bottom:15px;
+        font-size: 0.8em;
+        border: 0px solid blue;
+
+    }
+
+    .tulosdata
+    {
+        display: inline-block;
+        margin-right: 5px;
+        color: red;
+
+
+    }
+    .tulosdata::after
+    {
+        content: ' €';
+    }
+
+
+    .mobileview
+    {
+        display: none !important;
+    }
+
+    .mobile
+    {
+        display: inline-block;
+    }
+
+    .desktop
+    {
+        display: none;
+    }
+
+    .accordion-button
+    {
+        font-size: 13px !important;
+
+    }
+
+    .amount
+    {
+        border: 0px solid red;
+        width: 75px;
+        margin-right:5px;
+        text-align:right;
+    }
+
+
+    .date
+    {
+        border: 0px solid red;
+        margin-left:8px;
+        margin-right:5px;
+    }
+
+
+}
+
+
+@media (min-width: 768px)
+{
+
+    #showfile
+    {
+    }
+
+    .banklistimg
+    {
+        max-width: 200px;
+        margin: 15px;
+    }
+
+    .loginbutton_desktop
+    {
+        display: inline-block;
+    }
+
+    .loginbutton_mobile
+    {
+        display: none;
+
+    }
+
+    .monthrow
+    {
+        text-align: left;
+        margin-bottom:15px;
+    }
+
+    .kassarow
+    {
+        display:none;
+        text-align: left;
+        margin-bottom:15px;
+        font-size: 1.0em;
+    }
+
+    .tulosdata
+    {
+        display: inline-block;
+        margin-right: 10px;
+        color: red;
+    }
+    .tulosdata::after
+    {
+        content: ' €';
+    }
+
+
+    .mobileview
+    {
+        display: inline-block;
+    }
+
+    .mobile
+    {
+        display: none !important;
+    }
+
+    .mobile
+    {
+        display: none;
+    }
+
+    .desktop
+    {
+        display: inline-block;
+    }
+
+    .accordion-button
+    {
+        font-size: 0.5em !important;
+
+    }
+
+
+    .amount
+    {
+        border: 0px solid red;
+        width: 90px;
+        margin-right:5px;
+        text-align:right;
+    }
+
+
+    .date
+    {
+        border: 0px solid blue;
+        margin-left:12px;
+        margin-right:5px;
+    }
+
+}
+
+.banklistimg
+{
+    opacity: 1.0;
+}
+
+.banklistimg:hover
+{
+    opacity: 0.5;
+}
+
+
+.center {
+    text-align: center;
+    border: 0px solid green;
+}
+
+.form-group
+{
+    margin-bottom:20px;
+    max-width: 300px;
+}
+
+.formerror, .error
+{
+    color: red;
+    font-size: 0.9em;
+}
+
+.errorbig
+{
+    color: red;
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+.smallico:before
+{
+    font-size: 0.8em;
+}
+
+.red
+{
+    color: red;
+}
+
+.green
+{
+    color: #368656;
+}
+
+.nav-link {
+    color: #FFF !important;
+}
+
+#img-upload,#img-upload-1,#img-upload-2,#img-upload-3,#img-upload-4,#img-upload-5{
+    width: 100px;
+    height:100px;
+    max-width: 100px;
+    max-height:100px;
+    background-color: #eee;
+    margin: 10px;
+}
+
+.thumbkuitti
+{
+    display: inline-block;
+    width:100%;
+    max-width:120px;
+    margin-right: 15px;
+    margin-top:10px;
+    float:left;
+}
+
+.thumbpdf
+{
+    display: inline-block;
+    width:100%;
+    max-width:70px;
+    margin-right: 15px;
+    margin-top:10px;
+    float: left;
+
+}
+
+
+.modalkuitti
+{
+    display: inline-block;
+    width:100%;
+    max-width:200px;
+}
+
+.modalpdf
+{
+    display: inline-block;
+    width:100%;
+    max-width:120px;
+
+}
+
+
+.add-selite, .add-kuitti
+{
+    display: inline-block;
+    margin-top:15px;
+}
+
+.add-kuitti
+{
+    display: inline-block;
+    margin-top:15px;
+    margin-right: 10px;
+}
+
+
+#kuittishow
+{
+    display: inline-block;
+    width: 800px;
+    max-width: 80%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#pdfshow
+{
+    display: inline-block;
+    width: 200px;
+    max-width: 80%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.defaultdot
+{
+    background-color: #bbb;
+}
+
+.greendot
+{
+    background-color: green;
+}
+
+.status
+{
+    text-align: left;
+    min-width: 12px;
+    max-width: 12px;
+    border: 0px solid red;
+    margin-left: -10px;
+   margin-bottom:5px;
+    z-index: 10;
+    margin-top:-13px;
+}
+
+
+/*defaultrec*/
+
+
+
+.rec {
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #bbb;
+    margin-left: -5px;
+    margin-top:5px;
+    z-index: 20;
+    display: inline-block;
+    margin-top:15px;
+}
+
+.defaultrec
+{
+    border-top: 8px solid #bbb;
+}
+
+.greenrec
+{
+    border-top: 8px solid green;
+}
+
+.recs
+{
+    text-align: left;
+    min-width: 12px;
+    max-width: 12px;
+    border: 0px solid red;
+    margin-left: -10px;
+
+}
+
+
+
+.accordion-button:not(.collapsed) {
+    z-index: 3;
+    border-color: #FFF !important;
+    background-color: #0a53be;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem #FFF !important;
+}
+
+.accordion-button:not(.collapsed) .green {
+
+    color: white;
+}
+
+.accordion-button:not(.collapsed) .red {
+
+    color: white;
+}
+
+.accordion-button:not(.collapsed)::after
+{
+    color: white;
+}
+.tulosdata
+{
+
+}
+
+.tapahtuma, .tilibtn
+{
+    margin-top: 15px;
+    margin-left:10px;
+}
+
+.tapahtuma, .osioibtn
+{
+    margin-top: 15px;
+    margin-left:10px;
+}
+
+
+
+
+#vientiblock
+{
+    display: none;
+    width:100%;
+    padding:10px;
+    padding-top:25px;
+
+}
+
+#vientiblock a
+{
+    color: green;
+
+}
+
+.alvikanta
+{
+    border: 0px solid blue;
+    width: 70px !important;
+    float:left;
+    white-space: nowrap;
+    vertical-align: top;
+}
+
+.alvradio
+{
+    max-width: 20px;
+    float:left;
+    padding: 15px 5px 0px 0px;
+    margin: 5px 0px 5px 0px;
+}
+
+#osioimodal input
+{
+    margin-top: 5px;
+}
+
+.subtilirows tr td, .subtilirows tr th
+{
+    padding:10px;
+
+}
+
+.subtilirows tr td:nth-child(2)
+{
+    text-align: right;
+    width: 70px;
+    padding-right: 20px;
+
+}
+
+.okgreen
+{
+    font-size: 0.9em;
+    color: green;
+}
+
+.errorred
+{
+    font-size: 0.9em;
+    color: red;
+}
+
+.alvbox
+{
+    display:inline-block;
+    width:100%;
+    text-align: right !important;
+    border: 0px solid grey;
+}
+
+.fileicon
+{
+    max-width: 100px;
+}
+
+#filelist th, #filelist td
+{
+    padding: 5px;
+    text-align: left;
+
+
+}

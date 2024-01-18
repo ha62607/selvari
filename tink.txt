@@ -1,0 +1,74 @@
+
+curl -v https://api.tink.com/api/v1/oauth/token -d 'code=21b8bac589b841b88344d5a768dc2f2b' -d 'client_id=6e7d4b393b5047e6b9f0b80f093e18bc' -d 'client_secret=60b0ce15e874484b8c5c72f2a19e499f' -d 'grant_type=authorization_code'
+
+
+https://tink.com/about-us/
+
+
+
+
+Client ID:
+6e7d4b393b5047e6b9f0b80f093e18bc
+
+
+Client Secret:
+0a19e1e5695f4932b0748adb82074a1c
+
+
+
+account_verification_report_id
+46ccdd5d0bb64c67a24cefd92a1b9d73
+
+
+
+curl -v https://api.tink.com/api/v1/oauth/token -d 'client_id=e7d4b393b5047e6b9f0b80f093e18bc' -d 'client_secret=0a19e1e5695f4932b0748adb82074a1c' -d 'grant_type=client_credentials' -d 'scope=account-verification-reports:read'
+
+
+Step 2/2: Download the report
+
+curl 'https://api.tink.com/api/v1/account-verification-reports/46ccdd5d0bb64c67a24cefd92a1b9d73/pdf?template=standard-1.0' \
+-H 'Authorization: Bearer ${YOUR_CLIENT_ACCESS_TOKEN}' > report.pdf
+
+
+
+
+
+
+https://link.tink.com/1.0/reports/create-report?
+
+
+https://link.tink.com/1.0/reports/create-report?client_id=6e7d4b393b5047e6b9f0b80f093e18bc&redirect_uri=https://console.tink.com/callback&market=SE&report_types=TRANSACTION_REPORT&refreshable_items=CHECKING_TRANSACTIONS&account_dialog_type=NONE&test=false&market=FI&locale=fi_FI
+
+
+https://link.tink.com/1.0/transactions/connect-accounts/?client_id=6e7d4b393b5047e6b9f0b80f093e18bc&redirect_uri=https%3A%2F%2Fconsole.tink.com%2Fcallback&market=FI&locale=fi_FI&report_types=TRANSACTION_REPORT&refreshable_items=CHECKING_TRANSACTIONS&account_dialog_type=NONE&
+
+input_provider=DANSKEBANK_BUSINESS_DABAFIHH
+
+
+input_provider
+
+
+CODE
+25bc35353c9641ecab2235162874cce6
+
+
+TOKEN:
+eyJhbGciOiJFUzI1NiIsImtpZCI6IjQzZWRlOWQ3LTJjMWUtNGRiNy04ZTQ4LWZmM2RjNDRmNTY2OSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Njg0NTk0MTEsImlhdCI6MTY2ODQ1MjIxMSwiaXNzIjoidGluazovL2F1dGgiLCJqdGkiOiIyNTQzZDZkMS03MjYzLTQ0ZDctYmIzMC1lZjExMWZkMTI3ZmQiLCJvcmlnaW4iOiJtYWluIiwic2NvcGVzIjpbImFjY291bnRzOnJlYWQiLCJiYWxhbmNlczpyZWFkIiwidHJhbnNhY3Rpb25zOnJlYWQiXSwic3ViIjoidGluazovL2F1dGgvdXNlci8yMjliYjI4YjQ0ZDg0ZDFlODgwNWJlNThjNGZhN2Q5ZSIsInRpbms6Ly9hcHAvaWQiOiJlYjQxZTIzYWRjODE0NTdjYWNmOWVkNTkzYmU2NjNkYSIsInRpbms6Ly9hcHAvdmVyaWZpZWQiOiJmYWxzZSJ9.ctGe21Hr6thIQJmhzDR5f-gsqa7DDAgDHJBmenL3OYvyuuaFdrTs9r7apcdLWtWo_xhQiQdK-6Y5hwclYR9wfA
+
+",
+
+
+  "refresh_token" : "1864bb705ff1459d95fcfc0f1827e1c1
+
+
+
+DANSKEBANK_BUSINESS_DABAFIHH
+
+curl https://api.tink.com/api/v1/providers -H 'Authorization: Bearer eyJhbGciOiJFUzI1NiIsImtpZCI6IjQzZWRlOWQ3LTJjMWUtNGRiNy04ZTQ4LWZmM2RjNDRmNTY2OSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Njg0NTk0MTEsImlhdCI6MTY2ODQ1MjIxMSwiaXNzIjoidGluazovL2F1dGgiLCJqdGkiOiIyNTQzZDZkMS03MjYzLTQ0ZDctYmIzMC1lZjExMWZkMTI3ZmQiLCJvcmlnaW4iOiJtYWluIiwic2NvcGVzIjpbImFjY291bnRzOnJlYWQiLCJiYWxhbmNlczpyZWFkIiwidHJhbnNhY3Rpb25zOnJlYWQiXSwic3ViIjoidGluazovL2F1dGgvdXNlci8yMjliYjI4YjQ0ZDg0ZDFlODgwNWJlNThjNGZhN2Q5ZSIsInRpbms6Ly9hcHAvaWQiOiJlYjQxZTIzYWRjODE0NTdjYWNmOWVkNTkzYmU2NjNkYSIsInRpbms6Ly9hcHAvdmVyaWZpZWQiOiJmYWxzZSJ9.ctGe21Hr6thIQJmhzDR5f-gsqa7DDAgDHJBmenL3OYvyuuaFdrTs9r7apcdLWtWo_xhQiQdK-6Y5hwclYR9wfA'
+
+
+curl -v https://api.tink.com/api/v1/oauth/token -d 'code=25bc35353c9641ecab2235162874cce6' -d 'client_id=6e7d4b393b5047e6b9f0b80f093e18bc' -d 'client_secret=0a19e1e5695f4932b0748adb82074a1c' -d 'grant_type=authorization_code'
+
+
+
+curl -X POST https://api.tink.com/api/v1/oauth/token -d 'client_id=6e7d4b393b5047e6b9f0b80f093e18bc' -d 'client_secret=0a19e1e5695f4932b0748adb82074a1c' -d 'grant_type=client_credentials' -d 'scope=account-verification-reports:read,transaction-reports:readonly'

@@ -1,0 +1,10 @@
+
+- Kirjautumisen selkeytys
+
+- Vähän sisältöjä
+
+- Tapahtuman lisäinfot
+
+- Alias nimet tapahtumille
+
+- Tiliöinti

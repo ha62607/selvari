@@ -1,0 +1,75 @@
+Sinulle on luotu kumppanikäyttäjätunnus ja salasana Visma Fivaldiin.
+Yritystunnus:
+Pluscom taloushallinto oy
+Käyttäjätunnus:
+ws-selvari
+Salasana:
+sfbVCzbgXCQDuXdBfFyc9AatAXZTqgyY
+
+IP: US East: 3.212.102.200
+
+https://manuals.fivaldi.net/customer/api/index.html
+
+Postman-API-Key
+
+PMAK-6574893670ca0b0e816d1575-94f0245b09de5c5ede87560e4055fd193d
+
+postman login --with-api-key PMAK-6574893670ca0b0e816d1575-94f0245b09de5c5ede87560e4055fd193d
+
+postman collection run 18740262-a5f03a21-b9cc-450c-870d-49eb756c5931
+
+
+newman run "https://api.getpostman.com/collections/LE18740262-a5f03a21-b9cc-450c-870d-49eb756c5931apikey=PMAK-6574893670ca0b0e816d1575-94f0245b09de5c5ede87560e4055fd193d"
+
+--global-vars "var1=value1" --global-vars "var2=value2"
+
+
+18740262-a5f03a21-b9cc-450c-870d-49eb756c5931
+
+
+https://postman-echo.com/get?url=https://api.fivaldi.net/customer/api/customers&partnerId={{partnerId}}&partnerSecret={{partnerSecret}}
+
+postman login --with-api-key
+
+postman collection run 18740262-1edb904e-b697-4b18-bcb9-84574f1ccaee -e 18740262-f09abc8d-853c-49f2-8ec0-9feb6ab2d338 -i 18740262-a6da97e9-c055-4a63-93e4-edfbe13e2a67
+
+
+curl --location 'https://api.fivaldi.net/customer/api/customers' --header 'Accept: application/json'
+
+postman collection run 18740262-a5f03a21-b9cc-450c-870d-49eb756c5931 18740262-a5f03a21-b9cc-450c-870d-49eb756c5931 --with-api-key PMAK-6574893670ca0b0e816d1575-94f0245b09de5c5ede87560e4055fd193d
+
+customerpostman_collection.json
+
+newman run "https://api.getpostman.com/collections/collection-id?apikey=PMAK-6574893670ca0b0e816d1575-94f0245b09de5c5ede87560e4055fd193d"
+
+
+newman run "https://api.getpostman.com/collections/collection-id?apikey=PMAK-6574893670ca0b0e816d1575-94f0245b09de5c5ede87560e4055fd193d"
+
+
+newman run "customerpostman_collection.json! -r cli,json
+
+
+
+get_customers.json
+
+https://api.fivaldi.net/customer/
+
+
+newman run "https://interstellar-capsule-51362.postman.co/workspace/Pluscom~15956169-a27f-4376-aca1-c74eb15ad213/collection/18740262-1edb904e-b697-4b18-bcb9-84574f1ccaee?action=share&source=collection_link&creator=18740262" -e ./get_customers.json
+
+-------
+https://isvapi.netvisor.fi/
+
+
+https://manuals.fivaldi.net/customer/api/index.html
+
+sfbVCzbgXCQDuXdBfFyc9AatAXZTqgyY
+
+Demokäyttäjä Pluscom taloushallinto Oy
+
+FAFBBC18-75BF-472D-A890-E902F6CA5268_31946
+
+27F43C83BE957CAD811C5CA55E9F535B
+
+
+
