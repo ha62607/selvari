@@ -1,6 +1,6 @@
 <?php
 
-$ENV = 0;
+include_once ('config-loc.php');
 
 if (isset($_SERVER['SERVER_NAME']))
 {
@@ -24,53 +24,11 @@ $REQ = "https://ob.nordigen.com/api/v2/requisitions/";
 
 $TOKEN = "xxx";
 
-$SELVARI = true;
 
 $secret = [
     'secret_id' => 'aa2eb74e-e844-4e44-8b05-20bac75c4867',
     'secret_key' => 'f401077b4f4aa72f09e5532c7ac31c28b9668bf4f12dfec5e3174e1f1267926f7c5d22b1bd4858d60cbf1cb0d74d1dc1be44eb77f72115b36abd5344901db9dd'
 ];
-
-$SITE = "http://localhost/selvari/";
-$BANKRETURN = "http://localhost/selvari/bank.php";
-
-$TARGETDIR = "/Users/ha62607/sites/selvari/kuitit/";
-$FILEDIR = "/Users/ha62607/sites/selvari/uploads/";
-
-$PDFMAXSIZE = 3000000;
-
-$TEMPPATH = "/Users/ha62607/sites/selvari/temp/";
-
-$SITEPATH = "/Users/ha62607/sites/selvari/";
-
-
-$dbhost = "127.0.0.1";
-$dbport = "3306";
-$dbname = "selvari";
-$dbuser = "root";
-$dbpass = "root";
-
-if ($ENV == 3)
-{
-    $SITE = "https://tamkonto.com/";
-
-    $BANKRETURN = "https://tamkonto.com/bank.php";
-    $TARGETDIR = "/var/www/KUITIT/";
-    $FILEDIR = "/var/www/TIEDOSTOT/";
-
-    $PDFMAXSIZE = 3000000;
-
-    $TEMPPATH = "/var/www/html/tamkonto.com/temp/";
-
-    $SITEPATH = "/var/www/html/tamkonto.com";
-
-    $dbhost = "localhost";
-    $dbport = "3306";
-    $dbname = "tamkonto";
-    $dbuser = "root";
-    $dbpass = "JSRy5hebnghwGBVW3";
-
-}
 
 
 
