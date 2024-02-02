@@ -1,5 +1,11 @@
 /kuitit/*
-/rsa_test/*
+rsa_test/
 /temp/*
 /uploads/*
+rsa/
+pyc/
+esim/
+secure/
+paketti/
+.vscode/
 config-loc.php

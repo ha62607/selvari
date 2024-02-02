@@ -359,13 +359,15 @@ function get_vouchers($cuid)
     $data = getdata($endpoint);
     $data = json_decode($data);
 
-    //var_dump($data);
+   // var_dump($data);
     // if ($data[0]->customerId) $customerId = $data[0]->customerId;
 
     //return $customerId;
 
     return $data;
 }
+
+
 
 
 
