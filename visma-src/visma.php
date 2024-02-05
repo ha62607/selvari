@@ -296,14 +296,14 @@ function getdata($endpoint, $httpMethod = 'GET')
 
 function first_day()
 {
-    $month_ini = new DateTime("first day of last month");
+    $month_ini = new DateTime("2023-11-01 00:00:00");
     return $month_ini->format('Y-m-d'); // 2012-02-01
 }
 
 
 function last_day()
 {
-    $month_end = new DateTime("last day of last month");
+    $month_end = new DateTime("2024-01-31 00:00:00");
     return $month_end->format('Y-m-d'); // 2012-02-29
 }
 
@@ -354,13 +354,15 @@ function get_vouchers($cuid)
     $last_day = last_day();
 
 
-    $endpoint = '/customer/api/companies/'.$cuid.'/bookkeeping/vouchers?startDate=2023-11-01&endDate=2023-11-30';
+    $endpoint = '/customer/api/companies/'.$cuid.'/bookkeeping/vouchers?startDate='.$first_day.'&endDate='.$last_day;
     echo "\n\n" . $endpoint . "\n\n";
     $data = getdata($endpoint);
     $data = json_decode($data);
 
-   // var_dump($data);
+    echo "----------------\n";
+    var_dump($data);
     // if ($data[0]->customerId) $customerId = $data[0]->customerId;
+    echo "-\n---------------\n";
 
     //return $customerId;
 
