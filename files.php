@@ -15,6 +15,15 @@ include('header.php');
 <script>
     $(document).ready(function (e) {
 
+        function deleteButton(tid)
+        {
+            var button = "<button class='btn btn-large btn-primary' data-toggle='confirmation' data-btn-ok-label='Jatka' data-btn-ok-class='btn-success' data-btn-ok-icon-class='material-icons' data-btn-ok-icon-content='check' data-btn-cancel-label='Peruuta' data-btn-cancel-class='btn-danger' data-btn-cancel-icon-class='material-icons' data-btn-cancel-icon-content='close' data-title='Is it ok?' data-content='This might be dangerous'> Poista tiedosto</button>";
+
+            return button;
+        }
+
+
+
         $("#form").on('submit',(function(e) {
             e.preventDefault();
             $.ajax({
@@ -86,7 +95,11 @@ include('header.php');
                                 var cell1 = row.insertCell(0);
                                 var cell2 = row.insertCell(1);
 
-                                let filu = "<a  href='loadtiedosto.php?tid="+tid+"'>"+file + "</a><br><i style='font-size:0.8em;'>"+aika+"</i>"
+                                var confirm_message = '\"Haluatko varmasti poistaa tiedoston?\"';
+
+                                let filu = "<a  href='loadtiedosto.php?tid="+tid+"'>"+file + "</a><br><i style='font-size:0.8em;'>"+aika+"</i><br/><a href='javascript:void(0);' onclick='confirm("+confirm_message+")' data-tid='"+tid+"'>poista &rsaquo;</a>";
+
+                                console.log(filu);
 
 
                                 let exter = "<img style='width:35px;' src='./img/icon-"+ext+".png' alt='icon'>";
@@ -111,6 +124,15 @@ include('header.php');
 </script>
 
 <div class="container">
+
+<?php
+
+//print_r($_SESSION);
+
+
+?>
+
+
     <div class="row">
 
         <div class="col-md-8">

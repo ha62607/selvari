@@ -211,46 +211,19 @@ if (!empty($_GET['ref']))
 
 
         <div id="choosebank">
-        <h2>Valitse pankkisi</h2>
+        <h2>Selvitettävät tilitapahtumat</h2>
         <p>
-            Valitse oman yrityksesi pankki klikaamalla pankin ikonia.
+            Täydennä tilitapahtumalistan tapahtumat kuittiselitteillä, kuvilla tai pdf-tiedostoilla.
         </p>
 
         <div class="container text-center">
             <div class="row g-5 text-center">
-                <div class="col">
-                    <img src="./img/banks/danske.png" alt="Danske Bank" class="banklistimg border bankverify" id="danske"/>
-                </div>
-                <div class="col">
-                    <img src="./img/banks/handelsbanken.png" alt="Handelsbanken" class="banklistimg border bankverify"  id="handel"/>
-                </div>
-                <div class="col">
-                    <img src="./img/banks/nordea.png" alt="Nordea" class="banklistimg border bankverify"  id="nordea"/>
-                </div>
+
             </div>
             <div class="row  g-5 text-center" >
-                <div class="col">
-                    <img src="./img/banks/omasp.png" alt="Oma SP" class="banklistimg border bankverify"  id="omasp"/>
-                </div>
-
-                <div class="col">
-                    <img src="./img/banks/op.png" alt="Osuuspankki" class="banklistimg border bankverify"  id="op"/>
-                </div>
-                <div class="col">
-                    <img src="./img/banks/pop.png" alt="POP pankki" class="banklistimg border bankverify"  id="pop"/>
-                </div>
             </div>
 
             <div class="row  g-5 text-center">
-                <div class="col">
-                    <img src="./img/banks/saastopankki.png" alt="Säästöpankki" class="banklistimg border bankverify"  id="saasto"/>
-                </div>
-                <div class="col">
-                    <img src="./img/banks/spankki.png" alt="S-Pankki" class="banklistimg border bankverify"  id="spankki"/>
-                </div>
-                <div class="col">
-                    <img src="./img/banks/alands.png" alt="Ålands Banken" class="banklistimg border bankverify"  id="alands"/>
-                </div>
             </div>
         </div>
         </div>
