@@ -7,11 +7,19 @@ $BANKRETURN = "http://localhost/selvari/bank.php";
 $TARGETDIR = "/Users/ha62607/sites/selvari/kuitit/";
 $FILEDIR = "/Users/ha62607/sites/selvari/uploads/";
 
+$COMPANYDIR = "/Users/ha62607/sites/selvari_companydir/";
+
+
 $PDFMAXSIZE = 3000000;
 
 $TEMPPATH = "/Users/ha62607/sites/selvari/temp/";
 
 $SITEPATH = "/Users/ha62607/sites/selvari/";
+
+
+$TRUNCATE_TABLES = ' /opt/homebrew/bin/php /Users/ha62607/sites/selvari/visma-src/truncate.php';
+$GET_NEW_DATA = ' /opt/homebrew/bin/php /Users/ha62607/sites/selvari/visma-src/visma.php';
+
 
 
 $dbhost = "127.0.0.1";

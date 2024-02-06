@@ -9,13 +9,22 @@ if(empty($_SESSION['uid']))
 $uid = set_safe($_SESSION['uid']);
 $aika = gettime();
 $ip = getUserIP();
+$vatid = set_safe($_SESSION['vatid']);
+
+if (empty($uid)  || empty($vatid))
+{
+    header('Location: ./index.php?logout=true');
+   
+}
 
 //$img = $_FILES["image"]["name"];
 //$tmp = $_FILES["image"]["tmp_name"];
 //$errorimg = $_FILES["image"]["error"];
 
 $valid_extensions = array('jpeg', 'jpg', 'png','pdf' , 'doc', 'docx', 'xls' , 'ppt', 'txt'); // valid extensions
-$path = $FILEDIR; // upload directory
+
+$company_file_path = getCompanyFilePath('tiedostot');
+
 
 if(!empty($_POST['name']) || !empty($_POST['email']) || $_FILES['image'])
 {
@@ -31,15 +40,15 @@ if(!empty($_POST['name']) || !empty($_POST['email']) || $_FILES['image'])
 // check's valid format
     if(in_array($ext, $valid_extensions))
     {
-        $path = $path.strtolower($final_image);
+        $company_file_path = $company_file_path.strtolower($final_image);
 
-        if(move_uploaded_file($tmp,$path))
+        if(move_uploaded_file($tmp,$company_file_path))
         {
             //echo "<img src='$path' />";
             $name = set_safe($_SESSION['fullname']);
             $email = set_safe($_SESSION['email']);
 
-            $filu =  basename($path);
+            $filu =  basename($company_file_path);
 
             $conn = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
             if ($conn->connect_error) {

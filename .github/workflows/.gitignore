@@ -1,7 +1,7 @@
-/kuitit/*
-rsa_test/
-/temp/*
-/uploads/*
+kuitit/*
+rsa_test/*
+temp/*
+uploads/*
 rsa/
 pyc/
 esim/
@@ -9,3 +9,4 @@ secure/
 paketti/
 .vscode/
 config-loc.php
+.DS_Store
