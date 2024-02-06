@@ -1,0 +1,7847 @@
+Fetching data from endpoint: https://api.fivaldi.net/customer/api/customers
+
+
+STATUS:200
+
+Fetching data from endpoint: https://api.fivaldi.net/customer/api/customers
+
+
+STATUS:200
+
+CustomerId: PLUSCOM
+
+/customer/api/companies?customerId=PLUSCOM
+
+Fetching data from endpoint: https://api.fivaldi.net/customer/api/companies?customerId=PLUSCOM
+
+
+STATUS:200
+
+Saving company: DEMOcom Oy
+
+Saving company vouchers with cuid: 4CAB3A6B56375BA1E0531100820AA764
+
+
+
+/customer/api/companies/4CAB3A6B56375BA1E0531100820AA764/bookkeeping/vouchers?startDate=2023-11-01&endDate=2024-01-31
+
+Fetching data from endpoint: https://api.fivaldi.net/customer/api/companies/4CAB3A6B56375BA1E0531100820AA764/bookkeeping/vouchers?startDate=2023-11-01&endDate=2024-01-31
+
+
+STATUS:200
+
+----------------
+array(35) {
+  [0]=>
+  object(stdClass)#4 (9) {
+    ["voucherType"]=>
+    string(1) "8"
+    ["voucherTypeName"]=>
+    string(9) "Pkviennit"
+    ["voucherNumber"]=>
+    string(10) "8231100001"
+    ["voucherDate"]=>
+    string(10) "2023-11-01"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["invoiceNumber"]=>
+    string(7) "8989184"
+    ["voucherEntries"]=>
+    array(2) {
+      [0]=>
+      object(stdClass)#3 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(8) "R-kioski"
+        ["amount"]=>
+        float(12.5)
+        ["accountNumber"]=>
+        string(4) "1777"
+        ["accountName"]=>
+        string(14) "Selvittelytili"
+      }
+      [1]=>
+      object(stdClass)#5 (5) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(8) "R-kioski"
+        ["amount"]=>
+        float(-12.5)
+        ["accountNumber"]=>
+        string(4) "1910"
+        ["accountName"]=>
+        string(12) "Pankkitili 1"
+      }
+    }
+  }
+  [1]=>
+  object(stdClass)#6 (9) {
+    ["voucherType"]=>
+    string(1) "8"
+    ["voucherTypeName"]=>
+    string(9) "Pkviennit"
+    ["voucherNumber"]=>
+    string(10) "8231100002"
+    ["voucherDate"]=>
+    string(10) "2023-11-02"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["invoiceNumber"]=>
+    string(7) "8989186"
+    ["voucherEntries"]=>
+    array(2) {
+      [0]=>
+      object(stdClass)#7 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(9) "Ilmarinen"
+        ["amount"]=>
+        float(497.6)
+        ["accountNumber"]=>
+        string(4) "1777"
+        ["accountName"]=>
+        string(14) "Selvittelytili"
+      }
+      [1]=>
+      object(stdClass)#8 (5) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(9) "Ilmarinen"
+        ["amount"]=>
+        float(-497.6)
+        ["accountNumber"]=>
+        string(4) "1910"
+        ["accountName"]=>
+        string(12) "Pankkitili 1"
+      }
+    }
+  }
+  [2]=>
+  object(stdClass)#9 (9) {
+    ["voucherType"]=>
+    string(1) "8"
+    ["voucherTypeName"]=>
+    string(9) "Pkviennit"
+    ["voucherNumber"]=>
+    string(10) "8231100003"
+    ["voucherDate"]=>
+    string(10) "2023-11-02"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["invoiceNumber"]=>
+    string(7) "8989189"
+    ["voucherEntries"]=>
+    array(2) {
+      [0]=>
+      object(stdClass)#10 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(20) "J.Oikemus industries"
+        ["amount"]=>
+        int(-1250)
+        ["accountNumber"]=>
+        string(4) "1777"
+        ["accountName"]=>
+        string(14) "Selvittelytili"
+      }
+      [1]=>
+      object(stdClass)#11 (5) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(20) "J.Oikemus industries"
+        ["amount"]=>
+        int(1250)
+        ["accountNumber"]=>
+        string(4) "1910"
+        ["accountName"]=>
+        string(12) "Pankkitili 1"
+      }
+    }
+  }
+  [3]=>
+  object(stdClass)#12 (9) {
+    ["voucherType"]=>
+    string(1) "8"
+    ["voucherTypeName"]=>
+    string(9) "Pkviennit"
+    ["voucherNumber"]=>
+    string(10) "8231100004"
+    ["voucherDate"]=>
+    string(10) "2023-11-06"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["invoiceNumber"]=>
+    string(7) "8989190"
+    ["voucherEntries"]=>
+    array(2) {
+      [0]=>
+      object(stdClass)#13 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(5) "Elisa"
+        ["amount"]=>
+        float(34.9)
+        ["accountNumber"]=>
+        string(4) "1777"
+        ["accountName"]=>
+        string(14) "Selvittelytili"
+      }
+      [1]=>
+      object(stdClass)#14 (5) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(5) "Elisa"
+        ["amount"]=>
+        float(-34.9)
+        ["accountNumber"]=>
+        string(4) "1910"
+        ["accountName"]=>
+        string(12) "Pankkitili 1"
+      }
+    }
+  }
+  [4]=>
+  object(stdClass)#15 (9) {
+    ["voucherType"]=>
+    string(1) "8"
+    ["voucherTypeName"]=>
+    string(9) "Pkviennit"
+    ["voucherNumber"]=>
+    string(10) "8231100005"
+    ["voucherDate"]=>
+    string(10) "2023-11-16"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["invoiceNumber"]=>
+    string(7) "8989191"
+    ["voucherEntries"]=>
+    array(2) {
+      [0]=>
+      object(stdClass)#16 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(8) "Finnpark"
+        ["amount"]=>
+        float(2.4)
+        ["accountNumber"]=>
+        string(4) "1777"
+        ["accountName"]=>
+        string(14) "Selvittelytili"
+      }
+      [1]=>
+      object(stdClass)#17 (5) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(8) "Finnpark"
+        ["amount"]=>
+        float(-2.4)
+        ["accountNumber"]=>
+        string(4) "1910"
+        ["accountName"]=>
+        string(12) "Pankkitili 1"
+      }
+    }
+  }
+  [5]=>
+  object(stdClass)#18 (9) {
+    ["voucherType"]=>
+    string(1) "8"
+    ["voucherTypeName"]=>
+    string(9) "Pkviennit"
+    ["voucherNumber"]=>
+    string(10) "8231100006"
+    ["voucherDate"]=>
+    string(10) "2023-11-24"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["invoiceNumber"]=>
+    string(7) "8989192"
+    ["voucherEntries"]=>
+    array(2) {
+      [0]=>
+      object(stdClass)#19 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(7) "Spotify"
+        ["amount"]=>
+        float(9.9)
+        ["accountNumber"]=>
+        string(4) "1777"
+        ["accountName"]=>
+        string(14) "Selvittelytili"
+      }
+      [1]=>
+      object(stdClass)#20 (5) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(7) "Spotify"
+        ["amount"]=>
+        float(-9.9)
+        ["accountNumber"]=>
+        string(4) "1910"
+        ["accountName"]=>
+        string(12) "Pankkitili 1"
+      }
+    }
+  }
+  [6]=>
+  object(stdClass)#21 (9) {
+    ["voucherType"]=>
+    string(1) "8"
+    ["voucherTypeName"]=>
+    string(9) "Pkviennit"
+    ["voucherNumber"]=>
+    string(10) "8231100007"
+    ["voucherDate"]=>
+    string(10) "2023-11-29"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["invoiceNumber"]=>
+    string(7) "8989194"
+    ["voucherEntries"]=>
+    array(2) {
+      [0]=>
+      object(stdClass)#22 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(17) "Tampereen energia"
+        ["amount"]=>
+        float(74.8)
+        ["accountNumber"]=>
+        string(4) "1777"
+        ["accountName"]=>
+        string(14) "Selvittelytili"
+      }
+      [1]=>
+      object(stdClass)#23 (5) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(17) "Tampereen energia"
+        ["amount"]=>
+        float(-74.8)
+        ["accountNumber"]=>
+        string(4) "1910"
+        ["accountName"]=>
+        string(12) "Pankkitili 1"
+      }
+    }
+  }
+  [7]=>
+  object(stdClass)#24 (9) {
+    ["voucherType"]=>
+    string(1) "8"
+    ["voucherTypeName"]=>
+    string(9) "Pkviennit"
+    ["voucherNumber"]=>
+    string(10) "8231100008"
+    ["voucherDate"]=>
+    string(10) "2023-11-30"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["invoiceNumber"]=>
+    string(7) "8989196"
+    ["voucherEntries"]=>
+    array(2) {
+      [0]=>
+      object(stdClass)#25 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(6) "Sponda"
+        ["amount"]=>
+        int(750)
+        ["accountNumber"]=>
+        string(4) "1777"
+        ["accountName"]=>
+        string(14) "Selvittelytili"
+      }
+      [1]=>
+      object(stdClass)#26 (5) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(6) "Sponda"
+        ["amount"]=>
+        int(-750)
+        ["accountNumber"]=>
+        string(4) "1910"
+        ["accountName"]=>
+        string(12) "Pankkitili 1"
+      }
+    }
+  }
+  [8]=>
+  object(stdClass)#27 (8) {
+    ["voucherType"]=>
+    string(1) "8"
+    ["voucherTypeName"]=>
+    string(9) "Pkviennit"
+    ["voucherNumber"]=>
+    string(10) "8231100009"
+    ["voucherDate"]=>
+    string(10) "2023-11-30"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(4) {
+      [0]=>
+      object(stdClass)#28 (7) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(19) "Abc kissa dallailee"
+        ["amount"]=>
+        int(750)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#29 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(145.16)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [1]=>
+      object(stdClass)#30 (7) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(19) "Abc kissa dallailee"
+        ["amount"]=>
+        int(-750)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#31 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(-145.16)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [2]=>
+      object(stdClass)#32 (5) {
+        ["entryNumber"]=>
+        int(999999)
+        ["description"]=>
+        string(54) " Vero (Rakentamispalvelut Osto vähennyskelpoinen 24%)"
+        ["amount"]=>
+        float(145.16)
+        ["accountNumber"]=>
+        string(4) "2939"
+        ["accountName"]=>
+        string(27) "Myynnin arvonlisäverovelka"
+      }
+      [3]=>
+      object(stdClass)#33 (5) {
+        ["entryNumber"]=>
+        int(999999)
+        ["description"]=>
+        string(54) " Vero (Rakentamispalvelut Osto vähennyskelpoinen 24%)"
+        ["amount"]=>
+        float(-145.16)
+        ["accountNumber"]=>
+        string(4) "2939"
+        ["accountName"]=>
+        string(27) "Myynnin arvonlisäverovelka"
+      }
+    }
+  }
+  [9]=>
+  object(stdClass)#34 (8) {
+    ["voucherType"]=>
+    string(1) "8"
+    ["voucherTypeName"]=>
+    string(9) "Pkviennit"
+    ["voucherNumber"]=>
+    string(10) "8231100010"
+    ["voucherDate"]=>
+    string(10) "2023-11-30"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(4) {
+      [0]=>
+      object(stdClass)#35 (7) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(19) "Abc kissa dallailee"
+        ["amount"]=>
+        int(750)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#36 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(145.16)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [1]=>
+      object(stdClass)#37 (7) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(19) "Abc kissa dallailee"
+        ["amount"]=>
+        int(-750)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#38 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(-145.16)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [2]=>
+      object(stdClass)#39 (5) {
+        ["entryNumber"]=>
+        int(999999)
+        ["description"]=>
+        string(54) " Vero (Rakentamispalvelut Osto vähennyskelpoinen 24%)"
+        ["amount"]=>
+        float(-145.16)
+        ["accountNumber"]=>
+        string(4) "2939"
+        ["accountName"]=>
+        string(27) "Myynnin arvonlisäverovelka"
+      }
+      [3]=>
+      object(stdClass)#40 (5) {
+        ["entryNumber"]=>
+        int(999999)
+        ["description"]=>
+        string(54) " Vero (Rakentamispalvelut Osto vähennyskelpoinen 24%)"
+        ["amount"]=>
+        float(145.16)
+        ["accountNumber"]=>
+        string(4) "2939"
+        ["accountName"]=>
+        string(27) "Myynnin arvonlisäverovelka"
+      }
+    }
+  }
+  [10]=>
+  object(stdClass)#41 (8) {
+    ["voucherType"]=>
+    string(1) "8"
+    ["voucherTypeName"]=>
+    string(9) "Pkviennit"
+    ["voucherNumber"]=>
+    string(10) "8231100011"
+    ["voucherDate"]=>
+    string(10) "2023-11-30"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(7) {
+      [0]=>
+      object(stdClass)#42 (7) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(19) "Abc kissa dallailee"
+        ["amount"]=>
+        int(150)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#43 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(29.03)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [1]=>
+      object(stdClass)#44 (7) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(19) "Abc kissa dallailee"
+        ["amount"]=>
+        int(450)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#45 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(87.1)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [2]=>
+      object(stdClass)#46 (7) {
+        ["entryNumber"]=>
+        int(3)
+        ["description"]=>
+        string(19) "Abc kissa dallailee"
+        ["amount"]=>
+        float(99.75)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#47 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(19.31)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [3]=>
+      object(stdClass)#48 (7) {
+        ["entryNumber"]=>
+        int(4)
+        ["description"]=>
+        string(19) "Abc kissa dallailee"
+        ["amount"]=>
+        float(50.25)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#49 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(9.72)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [4]=>
+      object(stdClass)#50 (7) {
+        ["entryNumber"]=>
+        int(5)
+        ["description"]=>
+        string(19) "Abc kissa dallailee"
+        ["amount"]=>
+        int(-750)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#51 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(-145.16)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [5]=>
+      object(stdClass)#52 (5) {
+        ["entryNumber"]=>
+        int(999999)
+        ["description"]=>
+        string(54) " Vero (Rakentamispalvelut Osto vähennyskelpoinen 24%)"
+        ["amount"]=>
+        float(-145.16)
+        ["accountNumber"]=>
+        string(4) "2939"
+        ["accountName"]=>
+        string(27) "Myynnin arvonlisäverovelka"
+      }
+      [6]=>
+      object(stdClass)#53 (5) {
+        ["entryNumber"]=>
+        int(999999)
+        ["description"]=>
+        string(54) " Vero (Rakentamispalvelut Osto vähennyskelpoinen 24%)"
+        ["amount"]=>
+        float(145.16)
+        ["accountNumber"]=>
+        string(4) "2939"
+        ["accountName"]=>
+        string(27) "Myynnin arvonlisäverovelka"
+      }
+    }
+  }
+  [11]=>
+  object(stdClass)#54 (8) {
+    ["voucherType"]=>
+    string(1) "8"
+    ["voucherTypeName"]=>
+    string(9) "Pkviennit"
+    ["voucherNumber"]=>
+    string(10) "8231100012"
+    ["voucherDate"]=>
+    string(10) "2023-11-30"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(7) {
+      [0]=>
+      object(stdClass)#55 (7) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(8) "Selite 1"
+        ["amount"]=>
+        int(150)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#56 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(29.03)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [1]=>
+      object(stdClass)#57 (7) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(8) "Selite 2"
+        ["amount"]=>
+        int(450)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#58 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(87.1)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [2]=>
+      object(stdClass)#59 (7) {
+        ["entryNumber"]=>
+        int(3)
+        ["description"]=>
+        string(8) "Selite 3"
+        ["amount"]=>
+        float(99.75)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#60 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(19.31)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [3]=>
+      object(stdClass)#61 (7) {
+        ["entryNumber"]=>
+        int(4)
+        ["description"]=>
+        string(8) "Selite 4"
+        ["amount"]=>
+        float(50.25)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#62 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(9.72)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [4]=>
+      object(stdClass)#63 (7) {
+        ["entryNumber"]=>
+        int(5)
+        ["description"]=>
+        string(8) "Selite 5"
+        ["amount"]=>
+        int(-750)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#64 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(-145.16)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [5]=>
+      object(stdClass)#65 (5) {
+        ["entryNumber"]=>
+        int(999999)
+        ["description"]=>
+        string(54) " Vero (Rakentamispalvelut Osto vähennyskelpoinen 24%)"
+        ["amount"]=>
+        float(145.16)
+        ["accountNumber"]=>
+        string(4) "2939"
+        ["accountName"]=>
+        string(27) "Myynnin arvonlisäverovelka"
+      }
+      [6]=>
+      object(stdClass)#66 (5) {
+        ["entryNumber"]=>
+        int(999999)
+        ["description"]=>
+        string(54) " Vero (Rakentamispalvelut Osto vähennyskelpoinen 24%)"
+        ["amount"]=>
+        float(-145.16)
+        ["accountNumber"]=>
+        string(4) "2939"
+        ["accountName"]=>
+        string(27) "Myynnin arvonlisäverovelka"
+      }
+    }
+  }
+  [12]=>
+  object(stdClass)#67 (8) {
+    ["voucherType"]=>
+    string(1) "8"
+    ["voucherTypeName"]=>
+    string(9) "Pkviennit"
+    ["voucherNumber"]=>
+    string(10) "8231100013"
+    ["voucherDate"]=>
+    string(10) "2023-11-30"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(7) {
+      [0]=>
+      object(stdClass)#68 (7) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(8) "Selite 1"
+        ["amount"]=>
+        int(150)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#69 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(29.03)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [1]=>
+      object(stdClass)#70 (7) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(8) "Selite 2"
+        ["amount"]=>
+        int(450)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#71 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(87.1)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [2]=>
+      object(stdClass)#72 (7) {
+        ["entryNumber"]=>
+        int(3)
+        ["description"]=>
+        string(8) "Selite 3"
+        ["amount"]=>
+        float(99.75)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#73 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(19.31)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [3]=>
+      object(stdClass)#74 (7) {
+        ["entryNumber"]=>
+        int(4)
+        ["description"]=>
+        string(8) "Selite 4"
+        ["amount"]=>
+        float(50.25)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#75 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(9.72)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [4]=>
+      object(stdClass)#76 (7) {
+        ["entryNumber"]=>
+        int(5)
+        ["description"]=>
+        string(8) "Selite 5"
+        ["amount"]=>
+        int(-750)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#77 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(-145.16)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [5]=>
+      object(stdClass)#78 (5) {
+        ["entryNumber"]=>
+        int(999999)
+        ["description"]=>
+        string(54) " Vero (Rakentamispalvelut Osto vähennyskelpoinen 24%)"
+        ["amount"]=>
+        float(-145.16)
+        ["accountNumber"]=>
+        string(4) "2939"
+        ["accountName"]=>
+        string(27) "Myynnin arvonlisäverovelka"
+      }
+      [6]=>
+      object(stdClass)#79 (5) {
+        ["entryNumber"]=>
+        int(999999)
+        ["description"]=>
+        string(54) " Vero (Rakentamispalvelut Osto vähennyskelpoinen 24%)"
+        ["amount"]=>
+        float(145.16)
+        ["accountNumber"]=>
+        string(4) "2939"
+        ["accountName"]=>
+        string(27) "Myynnin arvonlisäverovelka"
+      }
+    }
+  }
+  [13]=>
+  object(stdClass)#80 (8) {
+    ["voucherType"]=>
+    string(1) "8"
+    ["voucherTypeName"]=>
+    string(9) "Pkviennit"
+    ["voucherNumber"]=>
+    string(10) "8231100014"
+    ["voucherDate"]=>
+    string(10) "2023-11-30"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(7) {
+      [0]=>
+      object(stdClass)#81 (7) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(8) "Selite 1"
+        ["amount"]=>
+        int(150)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#82 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(29.03)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [1]=>
+      object(stdClass)#83 (7) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(8) "Selite 2"
+        ["amount"]=>
+        int(450)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#84 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(87.1)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [2]=>
+      object(stdClass)#85 (7) {
+        ["entryNumber"]=>
+        int(3)
+        ["description"]=>
+        string(8) "Selite 3"
+        ["amount"]=>
+        float(99.75)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#86 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(19.31)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [3]=>
+      object(stdClass)#87 (7) {
+        ["entryNumber"]=>
+        int(4)
+        ["description"]=>
+        string(8) "Selite 4"
+        ["amount"]=>
+        float(50.25)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#88 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(9.72)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [4]=>
+      object(stdClass)#89 (7) {
+        ["entryNumber"]=>
+        int(5)
+        ["description"]=>
+        string(8) "Selite 5"
+        ["amount"]=>
+        int(-750)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#90 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(-145.16)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [5]=>
+      object(stdClass)#91 (5) {
+        ["entryNumber"]=>
+        int(999999)
+        ["description"]=>
+        string(54) " Vero (Rakentamispalvelut Osto vähennyskelpoinen 24%)"
+        ["amount"]=>
+        float(-145.16)
+        ["accountNumber"]=>
+        string(4) "2939"
+        ["accountName"]=>
+        string(27) "Myynnin arvonlisäverovelka"
+      }
+      [6]=>
+      object(stdClass)#92 (5) {
+        ["entryNumber"]=>
+        int(999999)
+        ["description"]=>
+        string(54) " Vero (Rakentamispalvelut Osto vähennyskelpoinen 24%)"
+        ["amount"]=>
+        float(145.16)
+        ["accountNumber"]=>
+        string(4) "2939"
+        ["accountName"]=>
+        string(27) "Myynnin arvonlisäverovelka"
+      }
+    }
+  }
+  [14]=>
+  object(stdClass)#93 (8) {
+    ["voucherType"]=>
+    string(1) "8"
+    ["voucherTypeName"]=>
+    string(9) "Pkviennit"
+    ["voucherNumber"]=>
+    string(10) "8231100015"
+    ["voucherDate"]=>
+    string(10) "2023-11-30"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(7) {
+      [0]=>
+      object(stdClass)#94 (7) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(8) "Selite 1"
+        ["amount"]=>
+        int(150)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#95 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(29.03)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [1]=>
+      object(stdClass)#96 (7) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(8) "Selite 2"
+        ["amount"]=>
+        int(450)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#97 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(87.1)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [2]=>
+      object(stdClass)#98 (7) {
+        ["entryNumber"]=>
+        int(3)
+        ["description"]=>
+        string(8) "Selite 3"
+        ["amount"]=>
+        float(99.75)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#99 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(19.31)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [3]=>
+      object(stdClass)#100 (7) {
+        ["entryNumber"]=>
+        int(4)
+        ["description"]=>
+        string(8) "Selite 4"
+        ["amount"]=>
+        float(50.25)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#101 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(9.72)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [4]=>
+      object(stdClass)#102 (7) {
+        ["entryNumber"]=>
+        int(5)
+        ["description"]=>
+        string(8) "Selite 5"
+        ["amount"]=>
+        int(-750)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#103 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(-145.16)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [5]=>
+      object(stdClass)#104 (5) {
+        ["entryNumber"]=>
+        int(999999)
+        ["description"]=>
+        string(54) " Vero (Rakentamispalvelut Osto vähennyskelpoinen 24%)"
+        ["amount"]=>
+        float(145.16)
+        ["accountNumber"]=>
+        string(4) "2939"
+        ["accountName"]=>
+        string(27) "Myynnin arvonlisäverovelka"
+      }
+      [6]=>
+      object(stdClass)#105 (5) {
+        ["entryNumber"]=>
+        int(999999)
+        ["description"]=>
+        string(54) " Vero (Rakentamispalvelut Osto vähennyskelpoinen 24%)"
+        ["amount"]=>
+        float(-145.16)
+        ["accountNumber"]=>
+        string(4) "2939"
+        ["accountName"]=>
+        string(27) "Myynnin arvonlisäverovelka"
+      }
+    }
+  }
+  [15]=>
+  object(stdClass)#106 (8) {
+    ["voucherType"]=>
+    string(1) "8"
+    ["voucherTypeName"]=>
+    string(9) "Pkviennit"
+    ["voucherNumber"]=>
+    string(10) "8231100016"
+    ["voucherDate"]=>
+    string(10) "2023-11-30"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(7) {
+      [0]=>
+      object(stdClass)#107 (7) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(8) "Selite 1"
+        ["amount"]=>
+        int(150)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#108 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(29.03)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [1]=>
+      object(stdClass)#109 (7) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(8) "Selite 2"
+        ["amount"]=>
+        int(450)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#110 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(87.1)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [2]=>
+      object(stdClass)#111 (7) {
+        ["entryNumber"]=>
+        int(3)
+        ["description"]=>
+        string(8) "Selite 3"
+        ["amount"]=>
+        float(99.75)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#112 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(19.31)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [3]=>
+      object(stdClass)#113 (7) {
+        ["entryNumber"]=>
+        int(4)
+        ["description"]=>
+        string(8) "Selite 4"
+        ["amount"]=>
+        float(50.25)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#114 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(9.72)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [4]=>
+      object(stdClass)#115 (7) {
+        ["entryNumber"]=>
+        int(5)
+        ["description"]=>
+        string(8) "Selite 5"
+        ["amount"]=>
+        int(-750)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#116 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(-145.16)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [5]=>
+      object(stdClass)#117 (5) {
+        ["entryNumber"]=>
+        int(999999)
+        ["description"]=>
+        string(54) " Vero (Rakentamispalvelut Osto vähennyskelpoinen 24%)"
+        ["amount"]=>
+        float(-145.16)
+        ["accountNumber"]=>
+        string(4) "2939"
+        ["accountName"]=>
+        string(27) "Myynnin arvonlisäverovelka"
+      }
+      [6]=>
+      object(stdClass)#118 (5) {
+        ["entryNumber"]=>
+        int(999999)
+        ["description"]=>
+        string(54) " Vero (Rakentamispalvelut Osto vähennyskelpoinen 24%)"
+        ["amount"]=>
+        float(145.16)
+        ["accountNumber"]=>
+        string(4) "2939"
+        ["accountName"]=>
+        string(27) "Myynnin arvonlisäverovelka"
+      }
+    }
+  }
+  [16]=>
+  object(stdClass)#119 (8) {
+    ["voucherType"]=>
+    string(1) "8"
+    ["voucherTypeName"]=>
+    string(9) "Pkviennit"
+    ["voucherNumber"]=>
+    string(10) "8231100017"
+    ["voucherDate"]=>
+    string(10) "2023-11-30"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(7) {
+      [0]=>
+      object(stdClass)#120 (7) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(8) "Selite 1"
+        ["amount"]=>
+        int(150)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#121 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(29.03)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [1]=>
+      object(stdClass)#122 (7) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(8) "Selite 2"
+        ["amount"]=>
+        int(450)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#123 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(87.1)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [2]=>
+      object(stdClass)#124 (7) {
+        ["entryNumber"]=>
+        int(3)
+        ["description"]=>
+        string(8) "Selite 3"
+        ["amount"]=>
+        float(99.75)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#125 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(19.31)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [3]=>
+      object(stdClass)#126 (7) {
+        ["entryNumber"]=>
+        int(4)
+        ["description"]=>
+        string(8) "Selite 4"
+        ["amount"]=>
+        float(50.25)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#127 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(9.72)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [4]=>
+      object(stdClass)#128 (7) {
+        ["entryNumber"]=>
+        int(5)
+        ["description"]=>
+        string(8) "Selite 5"
+        ["amount"]=>
+        int(-750)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#129 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(-145.16)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [5]=>
+      object(stdClass)#130 (5) {
+        ["entryNumber"]=>
+        int(999999)
+        ["description"]=>
+        string(54) " Vero (Rakentamispalvelut Osto vähennyskelpoinen 24%)"
+        ["amount"]=>
+        float(145.16)
+        ["accountNumber"]=>
+        string(4) "2939"
+        ["accountName"]=>
+        string(27) "Myynnin arvonlisäverovelka"
+      }
+      [6]=>
+      object(stdClass)#131 (5) {
+        ["entryNumber"]=>
+        int(999999)
+        ["description"]=>
+        string(54) " Vero (Rakentamispalvelut Osto vähennyskelpoinen 24%)"
+        ["amount"]=>
+        float(-145.16)
+        ["accountNumber"]=>
+        string(4) "2939"
+        ["accountName"]=>
+        string(27) "Myynnin arvonlisäverovelka"
+      }
+    }
+  }
+  [17]=>
+  object(stdClass)#132 (8) {
+    ["voucherType"]=>
+    string(1) "8"
+    ["voucherTypeName"]=>
+    string(9) "Pkviennit"
+    ["voucherNumber"]=>
+    string(10) "8231100018"
+    ["voucherDate"]=>
+    string(10) "2023-11-30"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(7) {
+      [0]=>
+      object(stdClass)#133 (7) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(8) "Selite 1"
+        ["amount"]=>
+        int(150)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#134 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(29.03)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [1]=>
+      object(stdClass)#135 (7) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(8) "Selite 2"
+        ["amount"]=>
+        int(450)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#136 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(87.1)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [2]=>
+      object(stdClass)#137 (7) {
+        ["entryNumber"]=>
+        int(3)
+        ["description"]=>
+        string(8) "Selite 3"
+        ["amount"]=>
+        float(99.75)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#138 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(19.31)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [3]=>
+      object(stdClass)#139 (7) {
+        ["entryNumber"]=>
+        int(4)
+        ["description"]=>
+        string(8) "Selite 4"
+        ["amount"]=>
+        float(50.25)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#140 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(9.72)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [4]=>
+      object(stdClass)#141 (7) {
+        ["entryNumber"]=>
+        int(5)
+        ["description"]=>
+        string(8) "Selite 5"
+        ["amount"]=>
+        int(-750)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#142 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(-145.16)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [5]=>
+      object(stdClass)#143 (5) {
+        ["entryNumber"]=>
+        int(999999)
+        ["description"]=>
+        string(54) " Vero (Rakentamispalvelut Osto vähennyskelpoinen 24%)"
+        ["amount"]=>
+        float(-145.16)
+        ["accountNumber"]=>
+        string(4) "2939"
+        ["accountName"]=>
+        string(27) "Myynnin arvonlisäverovelka"
+      }
+      [6]=>
+      object(stdClass)#144 (5) {
+        ["entryNumber"]=>
+        int(999999)
+        ["description"]=>
+        string(54) " Vero (Rakentamispalvelut Osto vähennyskelpoinen 24%)"
+        ["amount"]=>
+        float(145.16)
+        ["accountNumber"]=>
+        string(4) "2939"
+        ["accountName"]=>
+        string(27) "Myynnin arvonlisäverovelka"
+      }
+    }
+  }
+  [18]=>
+  object(stdClass)#145 (8) {
+    ["voucherType"]=>
+    string(1) "8"
+    ["voucherTypeName"]=>
+    string(9) "Pkviennit"
+    ["voucherNumber"]=>
+    string(10) "8231100019"
+    ["voucherDate"]=>
+    string(10) "2023-11-30"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(7) {
+      [0]=>
+      object(stdClass)#146 (7) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(8) "Selite 1"
+        ["amount"]=>
+        int(150)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#147 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(29.03)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [1]=>
+      object(stdClass)#148 (7) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(8) "Selite 2"
+        ["amount"]=>
+        int(450)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#149 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(87.1)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [2]=>
+      object(stdClass)#150 (7) {
+        ["entryNumber"]=>
+        int(3)
+        ["description"]=>
+        string(8) "Selite 3"
+        ["amount"]=>
+        float(99.75)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#151 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(19.31)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [3]=>
+      object(stdClass)#152 (7) {
+        ["entryNumber"]=>
+        int(4)
+        ["description"]=>
+        string(8) "Selite 4"
+        ["amount"]=>
+        float(50.25)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#153 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(9.72)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [4]=>
+      object(stdClass)#154 (7) {
+        ["entryNumber"]=>
+        int(5)
+        ["description"]=>
+        string(8) "Selite 5"
+        ["amount"]=>
+        int(-750)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#155 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(-145.16)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [5]=>
+      object(stdClass)#156 (5) {
+        ["entryNumber"]=>
+        int(999999)
+        ["description"]=>
+        string(54) " Vero (Rakentamispalvelut Osto vähennyskelpoinen 24%)"
+        ["amount"]=>
+        float(-145.16)
+        ["accountNumber"]=>
+        string(4) "2939"
+        ["accountName"]=>
+        string(27) "Myynnin arvonlisäverovelka"
+      }
+      [6]=>
+      object(stdClass)#157 (5) {
+        ["entryNumber"]=>
+        int(999999)
+        ["description"]=>
+        string(54) " Vero (Rakentamispalvelut Osto vähennyskelpoinen 24%)"
+        ["amount"]=>
+        float(145.16)
+        ["accountNumber"]=>
+        string(4) "2939"
+        ["accountName"]=>
+        string(27) "Myynnin arvonlisäverovelka"
+      }
+    }
+  }
+  [19]=>
+  object(stdClass)#158 (8) {
+    ["voucherType"]=>
+    string(1) "8"
+    ["voucherTypeName"]=>
+    string(9) "Pkviennit"
+    ["voucherNumber"]=>
+    string(10) "8231100020"
+    ["voucherDate"]=>
+    string(10) "2023-11-30"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(7) {
+      [0]=>
+      object(stdClass)#159 (7) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(8) "Selite 1"
+        ["amount"]=>
+        int(150)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#160 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(29.03)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [1]=>
+      object(stdClass)#161 (7) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(8) "Selite 2"
+        ["amount"]=>
+        int(450)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#162 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(87.1)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [2]=>
+      object(stdClass)#163 (7) {
+        ["entryNumber"]=>
+        int(3)
+        ["description"]=>
+        string(8) "Selite 3"
+        ["amount"]=>
+        float(99.75)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#164 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(19.31)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [3]=>
+      object(stdClass)#165 (7) {
+        ["entryNumber"]=>
+        int(4)
+        ["description"]=>
+        string(8) "Selite 4"
+        ["amount"]=>
+        float(50.25)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#166 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(9.72)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [4]=>
+      object(stdClass)#167 (7) {
+        ["entryNumber"]=>
+        int(5)
+        ["description"]=>
+        string(8) "Selite 5"
+        ["amount"]=>
+        int(-750)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#168 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(-145.16)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [5]=>
+      object(stdClass)#169 (5) {
+        ["entryNumber"]=>
+        int(999999)
+        ["description"]=>
+        string(54) " Vero (Rakentamispalvelut Osto vähennyskelpoinen 24%)"
+        ["amount"]=>
+        float(-145.16)
+        ["accountNumber"]=>
+        string(4) "2939"
+        ["accountName"]=>
+        string(27) "Myynnin arvonlisäverovelka"
+      }
+      [6]=>
+      object(stdClass)#170 (5) {
+        ["entryNumber"]=>
+        int(999999)
+        ["description"]=>
+        string(54) " Vero (Rakentamispalvelut Osto vähennyskelpoinen 24%)"
+        ["amount"]=>
+        float(145.16)
+        ["accountNumber"]=>
+        string(4) "2939"
+        ["accountName"]=>
+        string(27) "Myynnin arvonlisäverovelka"
+      }
+    }
+  }
+  [20]=>
+  object(stdClass)#171 (8) {
+    ["voucherType"]=>
+    string(1) "8"
+    ["voucherTypeName"]=>
+    string(9) "Pkviennit"
+    ["voucherNumber"]=>
+    string(10) "8231100021"
+    ["voucherDate"]=>
+    string(10) "2023-11-30"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(7) {
+      [0]=>
+      object(stdClass)#172 (7) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(8) "Selite 1"
+        ["amount"]=>
+        int(150)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#173 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(29.03)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [1]=>
+      object(stdClass)#174 (7) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(8) "Selite 2"
+        ["amount"]=>
+        int(450)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#175 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(87.1)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [2]=>
+      object(stdClass)#176 (7) {
+        ["entryNumber"]=>
+        int(3)
+        ["description"]=>
+        string(8) "Selite 3"
+        ["amount"]=>
+        float(99.75)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#177 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(19.31)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [3]=>
+      object(stdClass)#178 (7) {
+        ["entryNumber"]=>
+        int(4)
+        ["description"]=>
+        string(8) "Selite 4"
+        ["amount"]=>
+        float(50.25)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#179 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(9.72)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [4]=>
+      object(stdClass)#180 (7) {
+        ["entryNumber"]=>
+        int(5)
+        ["description"]=>
+        string(8) "Selite 5"
+        ["amount"]=>
+        int(-750)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#181 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(-145.16)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [5]=>
+      object(stdClass)#182 (5) {
+        ["entryNumber"]=>
+        int(999999)
+        ["description"]=>
+        string(54) " Vero (Rakentamispalvelut Osto vähennyskelpoinen 24%)"
+        ["amount"]=>
+        float(-145.16)
+        ["accountNumber"]=>
+        string(4) "2939"
+        ["accountName"]=>
+        string(27) "Myynnin arvonlisäverovelka"
+      }
+      [6]=>
+      object(stdClass)#183 (5) {
+        ["entryNumber"]=>
+        int(999999)
+        ["description"]=>
+        string(54) " Vero (Rakentamispalvelut Osto vähennyskelpoinen 24%)"
+        ["amount"]=>
+        float(145.16)
+        ["accountNumber"]=>
+        string(4) "2939"
+        ["accountName"]=>
+        string(27) "Myynnin arvonlisäverovelka"
+      }
+    }
+  }
+  [21]=>
+  object(stdClass)#184 (8) {
+    ["voucherType"]=>
+    string(1) "8"
+    ["voucherTypeName"]=>
+    string(9) "Pkviennit"
+    ["voucherNumber"]=>
+    string(10) "8231100022"
+    ["voucherDate"]=>
+    string(10) "2023-11-30"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(7) {
+      [0]=>
+      object(stdClass)#185 (7) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(8) "Selite 1"
+        ["amount"]=>
+        int(150)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#186 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(29.03)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [1]=>
+      object(stdClass)#187 (7) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(8) "Selite 2"
+        ["amount"]=>
+        int(450)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#188 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(87.1)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [2]=>
+      object(stdClass)#189 (7) {
+        ["entryNumber"]=>
+        int(3)
+        ["description"]=>
+        string(8) "Selite 3"
+        ["amount"]=>
+        float(99.75)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#190 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(19.31)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [3]=>
+      object(stdClass)#191 (7) {
+        ["entryNumber"]=>
+        int(4)
+        ["description"]=>
+        string(8) "Selite 4"
+        ["amount"]=>
+        float(50.25)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#192 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(9.72)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [4]=>
+      object(stdClass)#193 (7) {
+        ["entryNumber"]=>
+        int(5)
+        ["description"]=>
+        string(8) "Selite 5"
+        ["amount"]=>
+        int(-750)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#194 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(-145.16)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [5]=>
+      object(stdClass)#195 (5) {
+        ["entryNumber"]=>
+        int(999999)
+        ["description"]=>
+        string(54) " Vero (Rakentamispalvelut Osto vähennyskelpoinen 24%)"
+        ["amount"]=>
+        float(145.16)
+        ["accountNumber"]=>
+        string(4) "2939"
+        ["accountName"]=>
+        string(27) "Myynnin arvonlisäverovelka"
+      }
+      [6]=>
+      object(stdClass)#196 (5) {
+        ["entryNumber"]=>
+        int(999999)
+        ["description"]=>
+        string(54) " Vero (Rakentamispalvelut Osto vähennyskelpoinen 24%)"
+        ["amount"]=>
+        float(-145.16)
+        ["accountNumber"]=>
+        string(4) "2939"
+        ["accountName"]=>
+        string(27) "Myynnin arvonlisäverovelka"
+      }
+    }
+  }
+  [22]=>
+  object(stdClass)#197 (8) {
+    ["voucherType"]=>
+    string(1) "8"
+    ["voucherTypeName"]=>
+    string(9) "Pkviennit"
+    ["voucherNumber"]=>
+    string(10) "8231100023"
+    ["voucherDate"]=>
+    string(10) "2023-11-30"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(7) {
+      [0]=>
+      object(stdClass)#198 (7) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(8) "Selite 1"
+        ["amount"]=>
+        int(150)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#199 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(29.03)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [1]=>
+      object(stdClass)#200 (7) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(8) "Selite 2"
+        ["amount"]=>
+        int(450)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#201 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(87.1)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [2]=>
+      object(stdClass)#202 (7) {
+        ["entryNumber"]=>
+        int(3)
+        ["description"]=>
+        string(8) "Selite 3"
+        ["amount"]=>
+        float(99.75)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#203 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(19.31)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [3]=>
+      object(stdClass)#204 (7) {
+        ["entryNumber"]=>
+        int(4)
+        ["description"]=>
+        string(8) "Selite 4"
+        ["amount"]=>
+        float(50.25)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#205 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(9.72)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [4]=>
+      object(stdClass)#206 (7) {
+        ["entryNumber"]=>
+        int(5)
+        ["description"]=>
+        string(8) "Selite 5"
+        ["amount"]=>
+        int(-750)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#207 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(-145.16)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [5]=>
+      object(stdClass)#208 (5) {
+        ["entryNumber"]=>
+        int(999999)
+        ["description"]=>
+        string(54) " Vero (Rakentamispalvelut Osto vähennyskelpoinen 24%)"
+        ["amount"]=>
+        float(145.16)
+        ["accountNumber"]=>
+        string(4) "2939"
+        ["accountName"]=>
+        string(27) "Myynnin arvonlisäverovelka"
+      }
+      [6]=>
+      object(stdClass)#209 (5) {
+        ["entryNumber"]=>
+        int(999999)
+        ["description"]=>
+        string(54) " Vero (Rakentamispalvelut Osto vähennyskelpoinen 24%)"
+        ["amount"]=>
+        float(-145.16)
+        ["accountNumber"]=>
+        string(4) "2939"
+        ["accountName"]=>
+        string(27) "Myynnin arvonlisäverovelka"
+      }
+    }
+  }
+  [23]=>
+  object(stdClass)#210 (8) {
+    ["voucherType"]=>
+    string(1) "8"
+    ["voucherTypeName"]=>
+    string(9) "Pkviennit"
+    ["voucherNumber"]=>
+    string(10) "8231100024"
+    ["voucherDate"]=>
+    string(10) "2023-11-30"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(7) {
+      [0]=>
+      object(stdClass)#211 (7) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(8) "Selite 1"
+        ["amount"]=>
+        int(150)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#212 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(29.03)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [1]=>
+      object(stdClass)#213 (7) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(8) "Selite 2"
+        ["amount"]=>
+        int(450)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#214 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(87.1)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [2]=>
+      object(stdClass)#215 (7) {
+        ["entryNumber"]=>
+        int(3)
+        ["description"]=>
+        string(8) "Selite 3"
+        ["amount"]=>
+        float(99.75)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#216 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(19.31)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [3]=>
+      object(stdClass)#217 (7) {
+        ["entryNumber"]=>
+        int(4)
+        ["description"]=>
+        string(8) "Selite 4"
+        ["amount"]=>
+        float(50.25)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#218 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(9.72)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [4]=>
+      object(stdClass)#219 (7) {
+        ["entryNumber"]=>
+        int(5)
+        ["description"]=>
+        string(8) "Selite 5"
+        ["amount"]=>
+        int(-750)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#220 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(-145.16)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [5]=>
+      object(stdClass)#221 (5) {
+        ["entryNumber"]=>
+        int(999999)
+        ["description"]=>
+        string(54) " Vero (Rakentamispalvelut Osto vähennyskelpoinen 24%)"
+        ["amount"]=>
+        float(145.16)
+        ["accountNumber"]=>
+        string(4) "2939"
+        ["accountName"]=>
+        string(27) "Myynnin arvonlisäverovelka"
+      }
+      [6]=>
+      object(stdClass)#222 (5) {
+        ["entryNumber"]=>
+        int(999999)
+        ["description"]=>
+        string(54) " Vero (Rakentamispalvelut Osto vähennyskelpoinen 24%)"
+        ["amount"]=>
+        float(-145.16)
+        ["accountNumber"]=>
+        string(4) "2939"
+        ["accountName"]=>
+        string(27) "Myynnin arvonlisäverovelka"
+      }
+    }
+  }
+  [24]=>
+  object(stdClass)#223 (8) {
+    ["voucherType"]=>
+    string(1) "8"
+    ["voucherTypeName"]=>
+    string(9) "Pkviennit"
+    ["voucherNumber"]=>
+    string(10) "8231100025"
+    ["voucherDate"]=>
+    string(10) "2023-11-30"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(7) {
+      [0]=>
+      object(stdClass)#224 (7) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(8) "Selite 1"
+        ["amount"]=>
+        int(150)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#225 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(29.03)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [1]=>
+      object(stdClass)#226 (7) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(8) "Selite 2"
+        ["amount"]=>
+        int(450)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#227 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(87.1)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [2]=>
+      object(stdClass)#228 (7) {
+        ["entryNumber"]=>
+        int(3)
+        ["description"]=>
+        string(8) "Selite 3"
+        ["amount"]=>
+        float(99.75)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#229 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(19.31)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [3]=>
+      object(stdClass)#230 (7) {
+        ["entryNumber"]=>
+        int(4)
+        ["description"]=>
+        string(8) "Selite 4"
+        ["amount"]=>
+        float(50.25)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#231 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(9.72)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [4]=>
+      object(stdClass)#232 (7) {
+        ["entryNumber"]=>
+        int(5)
+        ["description"]=>
+        string(8) "Selite 5"
+        ["amount"]=>
+        int(-750)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#233 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(-145.16)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [5]=>
+      object(stdClass)#234 (5) {
+        ["entryNumber"]=>
+        int(999999)
+        ["description"]=>
+        string(54) " Vero (Rakentamispalvelut Osto vähennyskelpoinen 24%)"
+        ["amount"]=>
+        float(-145.16)
+        ["accountNumber"]=>
+        string(4) "2939"
+        ["accountName"]=>
+        string(27) "Myynnin arvonlisäverovelka"
+      }
+      [6]=>
+      object(stdClass)#235 (5) {
+        ["entryNumber"]=>
+        int(999999)
+        ["description"]=>
+        string(54) " Vero (Rakentamispalvelut Osto vähennyskelpoinen 24%)"
+        ["amount"]=>
+        float(145.16)
+        ["accountNumber"]=>
+        string(4) "2939"
+        ["accountName"]=>
+        string(27) "Myynnin arvonlisäverovelka"
+      }
+    }
+  }
+  [25]=>
+  object(stdClass)#236 (8) {
+    ["voucherType"]=>
+    string(1) "8"
+    ["voucherTypeName"]=>
+    string(9) "Pkviennit"
+    ["voucherNumber"]=>
+    string(10) "8231100026"
+    ["voucherDate"]=>
+    string(10) "2023-11-30"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(7) {
+      [0]=>
+      object(stdClass)#237 (7) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(8) "Selite 1"
+        ["amount"]=>
+        int(150)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#238 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(29.03)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [1]=>
+      object(stdClass)#239 (7) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(8) "Selite 2"
+        ["amount"]=>
+        int(450)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#240 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(87.1)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [2]=>
+      object(stdClass)#241 (7) {
+        ["entryNumber"]=>
+        int(3)
+        ["description"]=>
+        string(8) "Selite 3"
+        ["amount"]=>
+        float(99.75)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#242 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(19.31)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [3]=>
+      object(stdClass)#243 (7) {
+        ["entryNumber"]=>
+        int(4)
+        ["description"]=>
+        string(8) "Selite 4"
+        ["amount"]=>
+        float(50.25)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#244 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(9.72)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [4]=>
+      object(stdClass)#245 (7) {
+        ["entryNumber"]=>
+        int(5)
+        ["description"]=>
+        string(8) "Selite 5"
+        ["amount"]=>
+        int(-750)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#246 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(-145.16)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [5]=>
+      object(stdClass)#247 (5) {
+        ["entryNumber"]=>
+        int(999999)
+        ["description"]=>
+        string(54) " Vero (Rakentamispalvelut Osto vähennyskelpoinen 24%)"
+        ["amount"]=>
+        float(145.16)
+        ["accountNumber"]=>
+        string(4) "2939"
+        ["accountName"]=>
+        string(27) "Myynnin arvonlisäverovelka"
+      }
+      [6]=>
+      object(stdClass)#248 (5) {
+        ["entryNumber"]=>
+        int(999999)
+        ["description"]=>
+        string(54) " Vero (Rakentamispalvelut Osto vähennyskelpoinen 24%)"
+        ["amount"]=>
+        float(-145.16)
+        ["accountNumber"]=>
+        string(4) "2939"
+        ["accountName"]=>
+        string(27) "Myynnin arvonlisäverovelka"
+      }
+    }
+  }
+  [26]=>
+  object(stdClass)#249 (8) {
+    ["voucherType"]=>
+    string(1) "8"
+    ["voucherTypeName"]=>
+    string(9) "Pkviennit"
+    ["voucherNumber"]=>
+    string(10) "8231100027"
+    ["voucherDate"]=>
+    string(10) "2023-11-30"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(7) {
+      [0]=>
+      object(stdClass)#250 (7) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(8) "Selite 1"
+        ["amount"]=>
+        int(150)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#251 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(29.03)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [1]=>
+      object(stdClass)#252 (7) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(8) "Selite 2"
+        ["amount"]=>
+        int(450)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#253 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(87.1)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [2]=>
+      object(stdClass)#254 (7) {
+        ["entryNumber"]=>
+        int(3)
+        ["description"]=>
+        string(8) "Selite 3"
+        ["amount"]=>
+        float(99.75)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#255 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(19.31)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [3]=>
+      object(stdClass)#256 (7) {
+        ["entryNumber"]=>
+        int(4)
+        ["description"]=>
+        string(8) "Selite 4"
+        ["amount"]=>
+        float(50.25)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#257 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(9.72)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [4]=>
+      object(stdClass)#258 (7) {
+        ["entryNumber"]=>
+        int(5)
+        ["description"]=>
+        string(8) "Selite 5"
+        ["amount"]=>
+        int(-750)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#259 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(-145.16)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [5]=>
+      object(stdClass)#260 (5) {
+        ["entryNumber"]=>
+        int(999999)
+        ["description"]=>
+        string(54) " Vero (Rakentamispalvelut Osto vähennyskelpoinen 24%)"
+        ["amount"]=>
+        float(145.16)
+        ["accountNumber"]=>
+        string(4) "2939"
+        ["accountName"]=>
+        string(27) "Myynnin arvonlisäverovelka"
+      }
+      [6]=>
+      object(stdClass)#261 (5) {
+        ["entryNumber"]=>
+        int(999999)
+        ["description"]=>
+        string(54) " Vero (Rakentamispalvelut Osto vähennyskelpoinen 24%)"
+        ["amount"]=>
+        float(-145.16)
+        ["accountNumber"]=>
+        string(4) "2939"
+        ["accountName"]=>
+        string(27) "Myynnin arvonlisäverovelka"
+      }
+    }
+  }
+  [27]=>
+  object(stdClass)#262 (8) {
+    ["voucherType"]=>
+    string(1) "8"
+    ["voucherTypeName"]=>
+    string(9) "Pkviennit"
+    ["voucherNumber"]=>
+    string(10) "8231100028"
+    ["voucherDate"]=>
+    string(10) "2023-11-30"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(7) {
+      [0]=>
+      object(stdClass)#263 (7) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(8) "Selite 1"
+        ["amount"]=>
+        int(150)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#264 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(29.03)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [1]=>
+      object(stdClass)#265 (7) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(8) "Selite 2"
+        ["amount"]=>
+        int(450)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#266 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(87.1)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [2]=>
+      object(stdClass)#267 (7) {
+        ["entryNumber"]=>
+        int(3)
+        ["description"]=>
+        string(8) "Selite 3"
+        ["amount"]=>
+        float(99.75)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#268 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(19.31)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [3]=>
+      object(stdClass)#269 (7) {
+        ["entryNumber"]=>
+        int(4)
+        ["description"]=>
+        string(8) "Selite 4"
+        ["amount"]=>
+        float(50.25)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#270 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(9.72)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [4]=>
+      object(stdClass)#271 (7) {
+        ["entryNumber"]=>
+        int(5)
+        ["description"]=>
+        string(8) "Selite 5"
+        ["amount"]=>
+        int(-750)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#272 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(-145.16)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [5]=>
+      object(stdClass)#273 (5) {
+        ["entryNumber"]=>
+        int(999999)
+        ["description"]=>
+        string(54) " Vero (Rakentamispalvelut Osto vähennyskelpoinen 24%)"
+        ["amount"]=>
+        float(145.16)
+        ["accountNumber"]=>
+        string(4) "2939"
+        ["accountName"]=>
+        string(27) "Myynnin arvonlisäverovelka"
+      }
+      [6]=>
+      object(stdClass)#274 (5) {
+        ["entryNumber"]=>
+        int(999999)
+        ["description"]=>
+        string(54) " Vero (Rakentamispalvelut Osto vähennyskelpoinen 24%)"
+        ["amount"]=>
+        float(-145.16)
+        ["accountNumber"]=>
+        string(4) "2939"
+        ["accountName"]=>
+        string(27) "Myynnin arvonlisäverovelka"
+      }
+    }
+  }
+  [28]=>
+  object(stdClass)#275 (8) {
+    ["voucherType"]=>
+    string(1) "8"
+    ["voucherTypeName"]=>
+    string(9) "Pkviennit"
+    ["voucherNumber"]=>
+    string(10) "8231100029"
+    ["voucherDate"]=>
+    string(10) "2023-11-30"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(2) {
+      [0]=>
+      object(stdClass)#276 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(8) "R-kioski"
+        ["amount"]=>
+        int(-100)
+        ["accountNumber"]=>
+        string(4) "1910"
+        ["accountName"]=>
+        string(12) "Pankkitili 1"
+      }
+      [1]=>
+      object(stdClass)#277 (5) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(8) "R-kioski"
+        ["amount"]=>
+        int(100)
+        ["accountNumber"]=>
+        string(4) "1777"
+        ["accountName"]=>
+        string(14) "Selvittelytili"
+      }
+    }
+  }
+  [29]=>
+  object(stdClass)#278 (8) {
+    ["voucherType"]=>
+    string(1) "8"
+    ["voucherTypeName"]=>
+    string(9) "Pkviennit"
+    ["voucherNumber"]=>
+    string(10) "8231200001"
+    ["voucherDate"]=>
+    string(10) "2023-12-01"
+    ["accountingPeriod"]=>
+    int(202312)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(2) {
+      [0]=>
+      object(stdClass)#279 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(8) "R-kioski"
+        ["amount"]=>
+        int(-100)
+        ["accountNumber"]=>
+        string(4) "1910"
+        ["accountName"]=>
+        string(12) "Pankkitili 1"
+      }
+      [1]=>
+      object(stdClass)#280 (5) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(8) "R-kioski"
+        ["amount"]=>
+        int(100)
+        ["accountNumber"]=>
+        string(4) "1777"
+        ["accountName"]=>
+        string(14) "Selvittelytili"
+      }
+    }
+  }
+  [30]=>
+  object(stdClass)#281 (9) {
+    ["voucherType"]=>
+    string(1) "8"
+    ["voucherTypeName"]=>
+    string(9) "Pkviennit"
+    ["voucherNumber"]=>
+    string(10) "8231200002"
+    ["voucherDate"]=>
+    string(10) "2023-12-05"
+    ["accountingPeriod"]=>
+    int(202312)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["invoiceNumber"]=>
+    string(7) "9162637"
+    ["voucherEntries"]=>
+    array(2) {
+      [0]=>
+      object(stdClass)#282 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(8) "K-market"
+        ["amount"]=>
+        int(124)
+        ["accountNumber"]=>
+        string(4) "1777"
+        ["accountName"]=>
+        string(14) "Selvittelytili"
+      }
+      [1]=>
+      object(stdClass)#283 (5) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(8) "K-market"
+        ["amount"]=>
+        int(-124)
+        ["accountNumber"]=>
+        string(4) "1910"
+        ["accountName"]=>
+        string(12) "Pankkitili 1"
+      }
+    }
+  }
+  [31]=>
+  object(stdClass)#284 (8) {
+    ["voucherType"]=>
+    string(1) "8"
+    ["voucherTypeName"]=>
+    string(9) "Pkviennit"
+    ["voucherNumber"]=>
+    string(10) "8231200003"
+    ["voucherDate"]=>
+    string(10) "2023-12-20"
+    ["accountingPeriod"]=>
+    int(202312)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(2) {
+      [0]=>
+      object(stdClass)#285 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(7) "Pluscom"
+        ["amount"]=>
+        int(-186)
+        ["accountNumber"]=>
+        string(4) "1910"
+        ["accountName"]=>
+        string(12) "Pankkitili 1"
+      }
+      [1]=>
+      object(stdClass)#286 (5) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(7) "Pluscom"
+        ["amount"]=>
+        int(186)
+        ["accountNumber"]=>
+        string(4) "1777"
+        ["accountName"]=>
+        string(14) "Selvittelytili"
+      }
+    }
+  }
+  [32]=>
+  object(stdClass)#287 (8) {
+    ["voucherType"]=>
+    string(2) "17"
+    ["voucherTypeName"]=>
+    string(16) "Autom.kirjaukset"
+    ["voucherNumber"]=>
+    string(11) "17231100001"
+    ["voucherDate"]=>
+    string(10) "2023-11-30"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(7) {
+      [0]=>
+      object(stdClass)#288 (7) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(8) "Selite 1"
+        ["amount"]=>
+        int(150)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#289 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(29.03)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [1]=>
+      object(stdClass)#290 (7) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(8) "Selite 2"
+        ["amount"]=>
+        int(450)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#291 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(87.1)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [2]=>
+      object(stdClass)#292 (7) {
+        ["entryNumber"]=>
+        int(3)
+        ["description"]=>
+        string(8) "Selite 3"
+        ["amount"]=>
+        float(99.75)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#293 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(19.31)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [3]=>
+      object(stdClass)#294 (7) {
+        ["entryNumber"]=>
+        int(4)
+        ["description"]=>
+        string(8) "Selite 4"
+        ["amount"]=>
+        float(50.25)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#295 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(9.72)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [4]=>
+      object(stdClass)#296 (7) {
+        ["entryNumber"]=>
+        int(5)
+        ["description"]=>
+        string(8) "Selite 5"
+        ["amount"]=>
+        int(-750)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#297 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(-145.16)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [5]=>
+      object(stdClass)#298 (5) {
+        ["entryNumber"]=>
+        int(999999)
+        ["description"]=>
+        string(54) " Vero (Rakentamispalvelut Osto vähennyskelpoinen 24%)"
+        ["amount"]=>
+        float(-145.16)
+        ["accountNumber"]=>
+        string(4) "2939"
+        ["accountName"]=>
+        string(27) "Myynnin arvonlisäverovelka"
+      }
+      [6]=>
+      object(stdClass)#299 (5) {
+        ["entryNumber"]=>
+        int(999999)
+        ["description"]=>
+        string(54) " Vero (Rakentamispalvelut Osto vähennyskelpoinen 24%)"
+        ["amount"]=>
+        float(145.16)
+        ["accountNumber"]=>
+        string(4) "2939"
+        ["accountName"]=>
+        string(27) "Myynnin arvonlisäverovelka"
+      }
+    }
+  }
+  [33]=>
+  object(stdClass)#300 (8) {
+    ["voucherType"]=>
+    string(2) "17"
+    ["voucherTypeName"]=>
+    string(16) "Autom.kirjaukset"
+    ["voucherNumber"]=>
+    string(11) "17231100002"
+    ["voucherDate"]=>
+    string(10) "2023-11-30"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(7) {
+      [0]=>
+      object(stdClass)#301 (7) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(8) "Selite 1"
+        ["amount"]=>
+        int(150)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#302 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(29.03)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [1]=>
+      object(stdClass)#303 (7) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(8) "Selite 2"
+        ["amount"]=>
+        int(450)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#304 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(87.1)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [2]=>
+      object(stdClass)#305 (7) {
+        ["entryNumber"]=>
+        int(3)
+        ["description"]=>
+        string(8) "Selite 3"
+        ["amount"]=>
+        float(99.75)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#306 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(19.31)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [3]=>
+      object(stdClass)#307 (7) {
+        ["entryNumber"]=>
+        int(4)
+        ["description"]=>
+        string(8) "Selite 4"
+        ["amount"]=>
+        float(50.25)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "1081"
+        ["accountName"]=>
+        string(12) "Atk-ohjelmat"
+        ["vat"]=>
+        object(stdClass)#308 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(9.72)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [4]=>
+      object(stdClass)#309 (7) {
+        ["entryNumber"]=>
+        int(5)
+        ["description"]=>
+        string(8) "Selite 5"
+        ["amount"]=>
+        int(-750)
+        ["balanceCode"]=>
+        string(2) "st"
+        ["accountNumber"]=>
+        string(4) "8200"
+        ["accountName"]=>
+        string(16) "Somisteet, kukat"
+        ["vat"]=>
+        object(stdClass)#310 (4) {
+          ["vatCode"]=>
+          string(1) "v"
+          ["vatAmount"]=>
+          float(-145.16)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [5]=>
+      object(stdClass)#311 (5) {
+        ["entryNumber"]=>
+        int(999999)
+        ["description"]=>
+        string(54) " Vero (Rakentamispalvelut Osto vähennyskelpoinen 24%)"
+        ["amount"]=>
+        float(145.16)
+        ["accountNumber"]=>
+        string(4) "2939"
+        ["accountName"]=>
+        string(27) "Myynnin arvonlisäverovelka"
+      }
+      [6]=>
+      object(stdClass)#312 (5) {
+        ["entryNumber"]=>
+        int(999999)
+        ["description"]=>
+        string(54) " Vero (Rakentamispalvelut Osto vähennyskelpoinen 24%)"
+        ["amount"]=>
+        float(-145.16)
+        ["accountNumber"]=>
+        string(4) "2939"
+        ["accountName"]=>
+        string(27) "Myynnin arvonlisäverovelka"
+      }
+    }
+  }
+  [34]=>
+  object(stdClass)#313 (8) {
+    ["voucherType"]=>
+    string(2) "60"
+    ["voucherTypeName"]=>
+    string(15) "Myynninhallinta"
+    ["voucherNumber"]=>
+    string(10) "6023120001"
+    ["voucherDate"]=>
+    string(10) "2023-12-31"
+    ["accountingPeriod"]=>
+    int(202312)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(5) {
+      [0]=>
+      object(stdClass)#314 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(56) "Matts Matsson  (1001) OSoiTE tähän missä työ tehtiin"
+        ["amount"]=>
+        float(359.6)
+        ["accountNumber"]=>
+        string(4) "1701"
+        ["accountName"]=>
+        string(29) "Myyntisaamiset, iso reskontra"
+      }
+      [1]=>
+      object(stdClass)#315 (6) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(45) "GRILLIN JA UUNIN xcywe222 * 1, Matts Matsson "
+        ["amount"]=>
+        int(-120)
+        ["accountNumber"]=>
+        string(4) "3000"
+        ["accountName"]=>
+        string(10) "Myynti 24%"
+        ["vat"]=>
+        object(stdClass)#316 (4) {
+          ["vatCode"]=>
+          string(1) "K"
+          ["vatAmount"]=>
+          float(-28.8)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [2]=>
+      object(stdClass)#317 (6) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(62) "GRILLIN JA UUNIN PUHDISTAJA 0,5 L MELLERUD * 1, Matts Matsson "
+        ["amount"]=>
+        int(-120)
+        ["accountNumber"]=>
+        string(4) "3000"
+        ["accountName"]=>
+        string(10) "Myynti 24%"
+        ["vat"]=>
+        object(stdClass)#318 (4) {
+          ["vatCode"]=>
+          string(1) "K"
+          ["vatAmount"]=>
+          float(-28.8)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [3]=>
+      object(stdClass)#319 (6) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(51) " Tilauksenne, pihan hoito. 16 h * 1, Matts Matsson "
+        ["amount"]=>
+        int(-50)
+        ["accountNumber"]=>
+        string(4) "3000"
+        ["accountName"]=>
+        string(10) "Myynti 24%"
+        ["vat"]=>
+        object(stdClass)#320 (4) {
+          ["vatCode"]=>
+          string(1) "K"
+          ["vatAmount"]=>
+          int(-12)
+          ["vatAccount"]=>
+          string(4) "2939"
+          ["vatAccountName"]=>
+          string(27) "Myynnin arvonlisäverovelka"
+        }
+      }
+      [4]=>
+      object(stdClass)#321 (5) {
+        ["entryNumber"]=>
+        int(3)
+        ["description"]=>
+        string(4) "Vero"
+        ["amount"]=>
+        float(-69.6)
+        ["accountNumber"]=>
+        string(4) "2939"
+        ["accountName"]=>
+        string(27) "Myynnin arvonlisäverovelka"
+      }
+    }
+  }
+}
+-
+---------------
+Array
+(
+    [voucherType] => 8
+    [voucherTypeName] => Pkviennit
+    [voucherNumber] => 8231100001
+    [voucherDate] => 2023-11-01
+    [accountingPeriod] => 202311
+    [fiscalYearId] => 2023
+    [isDeleted] => 
+    [invoiceNumber] => 8989184
+    [voucherEntries] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [entryNumber] => 1
+                    [description] => R-kioski
+                    [amount] => 12.5
+                    [accountNumber] => 1777
+                    [accountName] => Selvittelytili
+                )
+
+            [1] => stdClass Object
+                (
+                    [entryNumber] => 2
+                    [description] => R-kioski
+                    [amount] => -12.5
+                    [accountNumber] => 1910
+                    [accountName] => Pankkitili 1
+                )
+
+        )
+
+)
+
+ TAMID: 8231100001
+
+ UID: 1
+
+ DATE: 2023-11-01
+
+ NAME: R-kioski
+
+ AMOUNT: 12.5
+Array
+(
+    [voucherType] => 8
+    [voucherTypeName] => Pkviennit
+    [voucherNumber] => 8231100002
+    [voucherDate] => 2023-11-02
+    [accountingPeriod] => 202311
+    [fiscalYearId] => 2023
+    [isDeleted] => 
+    [invoiceNumber] => 8989186
+    [voucherEntries] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [entryNumber] => 1
+                    [description] => Ilmarinen
+                    [amount] => 497.6
+                    [accountNumber] => 1777
+                    [accountName] => Selvittelytili
+                )
+
+            [1] => stdClass Object
+                (
+                    [entryNumber] => 2
+                    [description] => Ilmarinen
+                    [amount] => -497.6
+                    [accountNumber] => 1910
+                    [accountName] => Pankkitili 1
+                )
+
+        )
+
+)
+
+ TAMID: 8231100002
+
+ UID: 1
+
+ DATE: 2023-11-02
+
+ NAME: Ilmarinen
+
+ AMOUNT: 497.6
+Array
+(
+    [voucherType] => 8
+    [voucherTypeName] => Pkviennit
+    [voucherNumber] => 8231100003
+    [voucherDate] => 2023-11-02
+    [accountingPeriod] => 202311
+    [fiscalYearId] => 2023
+    [isDeleted] => 
+    [invoiceNumber] => 8989189
+    [voucherEntries] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [entryNumber] => 1
+                    [description] => J.Oikemus industries
+                    [amount] => -1250
+                    [accountNumber] => 1777
+                    [accountName] => Selvittelytili
+                )
+
+            [1] => stdClass Object
+                (
+                    [entryNumber] => 2
+                    [description] => J.Oikemus industries
+                    [amount] => 1250
+                    [accountNumber] => 1910
+                    [accountName] => Pankkitili 1
+                )
+
+        )
+
+)
+
+ TAMID: 8231100003
+
+ UID: 1
+
+ DATE: 2023-11-02
+
+ NAME: J.Oikemus industries
+
+ AMOUNT: -1250
+Array
+(
+    [voucherType] => 8
+    [voucherTypeName] => Pkviennit
+    [voucherNumber] => 8231100004
+    [voucherDate] => 2023-11-06
+    [accountingPeriod] => 202311
+    [fiscalYearId] => 2023
+    [isDeleted] => 
+    [invoiceNumber] => 8989190
+    [voucherEntries] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [entryNumber] => 1
+                    [description] => Elisa
+                    [amount] => 34.9
+                    [accountNumber] => 1777
+                    [accountName] => Selvittelytili
+                )
+
+            [1] => stdClass Object
+                (
+                    [entryNumber] => 2
+                    [description] => Elisa
+                    [amount] => -34.9
+                    [accountNumber] => 1910
+                    [accountName] => Pankkitili 1
+                )
+
+        )
+
+)
+
+ TAMID: 8231100004
+
+ UID: 1
+
+ DATE: 2023-11-06
+
+ NAME: Elisa
+
+ AMOUNT: 34.9
+Array
+(
+    [voucherType] => 8
+    [voucherTypeName] => Pkviennit
+    [voucherNumber] => 8231100005
+    [voucherDate] => 2023-11-16
+    [accountingPeriod] => 202311
+    [fiscalYearId] => 2023
+    [isDeleted] => 
+    [invoiceNumber] => 8989191
+    [voucherEntries] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [entryNumber] => 1
+                    [description] => Finnpark
+                    [amount] => 2.4
+                    [accountNumber] => 1777
+                    [accountName] => Selvittelytili
+                )
+
+            [1] => stdClass Object
+                (
+                    [entryNumber] => 2
+                    [description] => Finnpark
+                    [amount] => -2.4
+                    [accountNumber] => 1910
+                    [accountName] => Pankkitili 1
+                )
+
+        )
+
+)
+
+ TAMID: 8231100005
+
+ UID: 1
+
+ DATE: 2023-11-16
+
+ NAME: Finnpark
+
+ AMOUNT: 2.4
+Array
+(
+    [voucherType] => 8
+    [voucherTypeName] => Pkviennit
+    [voucherNumber] => 8231100006
+    [voucherDate] => 2023-11-24
+    [accountingPeriod] => 202311
+    [fiscalYearId] => 2023
+    [isDeleted] => 
+    [invoiceNumber] => 8989192
+    [voucherEntries] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [entryNumber] => 1
+                    [description] => Spotify
+                    [amount] => 9.9
+                    [accountNumber] => 1777
+                    [accountName] => Selvittelytili
+                )
+
+            [1] => stdClass Object
+                (
+                    [entryNumber] => 2
+                    [description] => Spotify
+                    [amount] => -9.9
+                    [accountNumber] => 1910
+                    [accountName] => Pankkitili 1
+                )
+
+        )
+
+)
+
+ TAMID: 8231100006
+
+ UID: 1
+
+ DATE: 2023-11-24
+
+ NAME: Spotify
+
+ AMOUNT: 9.9
+Array
+(
+    [voucherType] => 8
+    [voucherTypeName] => Pkviennit
+    [voucherNumber] => 8231100007
+    [voucherDate] => 2023-11-29
+    [accountingPeriod] => 202311
+    [fiscalYearId] => 2023
+    [isDeleted] => 
+    [invoiceNumber] => 8989194
+    [voucherEntries] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [entryNumber] => 1
+                    [description] => Tampereen energia
+                    [amount] => 74.8
+                    [accountNumber] => 1777
+                    [accountName] => Selvittelytili
+                )
+
+            [1] => stdClass Object
+                (
+                    [entryNumber] => 2
+                    [description] => Tampereen energia
+                    [amount] => -74.8
+                    [accountNumber] => 1910
+                    [accountName] => Pankkitili 1
+                )
+
+        )
+
+)
+
+ TAMID: 8231100007
+
+ UID: 1
+
+ DATE: 2023-11-29
+
+ NAME: Tampereen energia
+
+ AMOUNT: 74.8
+Array
+(
+    [voucherType] => 8
+    [voucherTypeName] => Pkviennit
+    [voucherNumber] => 8231100008
+    [voucherDate] => 2023-11-30
+    [accountingPeriod] => 202311
+    [fiscalYearId] => 2023
+    [isDeleted] => 
+    [invoiceNumber] => 8989196
+    [voucherEntries] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [entryNumber] => 1
+                    [description] => Sponda
+                    [amount] => 750
+                    [accountNumber] => 1777
+                    [accountName] => Selvittelytili
+                )
+
+            [1] => stdClass Object
+                (
+                    [entryNumber] => 2
+                    [description] => Sponda
+                    [amount] => -750
+                    [accountNumber] => 1910
+                    [accountName] => Pankkitili 1
+                )
+
+        )
+
+)
+
+ TAMID: 8231100008
+
+ UID: 1
+
+ DATE: 2023-11-30
+
+ NAME: Sponda
+
+ AMOUNT: 750
+Array
+(
+    [voucherType] => 8
+    [voucherTypeName] => Pkviennit
+    [voucherNumber] => 8231200002
+    [voucherDate] => 2023-12-05
+    [accountingPeriod] => 202312
+    [fiscalYearId] => 2023
+    [isDeleted] => 
+    [invoiceNumber] => 9162637
+    [voucherEntries] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [entryNumber] => 1
+                    [description] => K-market
+                    [amount] => 124
+                    [accountNumber] => 1777
+                    [accountName] => Selvittelytili
+                )
+
+            [1] => stdClass Object
+                (
+                    [entryNumber] => 2
+                    [description] => K-market
+                    [amount] => -124
+                    [accountNumber] => 1910
+                    [accountName] => Pankkitili 1
+                )
+
+        )
+
+)
+
+ TAMID: 8231200002
+
+ UID: 1
+
+ DATE: 2023-12-05
+
+ NAME: K-market
+
+ AMOUNT: 124
+Saving company: Kirvestyö Hammarberg
+
+Saving company vouchers with cuid: 4CAB3A6D24485BA1E0531100820AA764
+
+
+
+/customer/api/companies/4CAB3A6D24485BA1E0531100820AA764/bookkeeping/vouchers?startDate=2023-11-01&endDate=2024-01-31
+
+Fetching data from endpoint: https://api.fivaldi.net/customer/api/companies/4CAB3A6D24485BA1E0531100820AA764/bookkeeping/vouchers?startDate=2023-11-01&endDate=2024-01-31
+
+
+STATUS:200
+
+----------------
+array(52) {
+  [0]=>
+  object(stdClass)#322 (8) {
+    ["voucherType"]=>
+    string(1) "2"
+    ["voucherTypeName"]=>
+    string(11) "Suoritukset"
+    ["voucherNumber"]=>
+    string(10) "2231100001"
+    ["voucherDate"]=>
+    string(10) "2023-11-06"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(2) {
+      [0]=>
+      object(stdClass)#324 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(31) "TAMPEREEN TA [11065UTZ00355888]"
+        ["amount"]=>
+        int(2772)
+        ["accountNumber"]=>
+        string(4) "1799"
+        ["accountName"]=>
+        string(26) "Välitili, myyntireskontra"
+      }
+      [1]=>
+      object(stdClass)#323 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(16) "Lasku 6023100002"
+        ["amount"]=>
+        int(-2772)
+        ["accountNumber"]=>
+        string(4) "1701"
+        ["accountName"]=>
+        string(29) "Myyntisaamiset, iso reskontra"
+      }
+    }
+  }
+  [1]=>
+  object(stdClass)#325 (8) {
+    ["voucherType"]=>
+    string(1) "2"
+    ["voucherTypeName"]=>
+    string(11) "Suoritukset"
+    ["voucherNumber"]=>
+    string(10) "2231100002"
+    ["voucherDate"]=>
+    string(10) "2023-11-10"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(2) {
+      [0]=>
+      object(stdClass)#326 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(16) "Lasku 6023110001"
+        ["amount"]=>
+        int(-1540)
+        ["accountNumber"]=>
+        string(4) "1701"
+        ["accountName"]=>
+        string(29) "Myyntisaamiset, iso reskontra"
+      }
+      [1]=>
+      object(stdClass)#327 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(31) "TAMPEREEN TA [11105UTZ00174465]"
+        ["amount"]=>
+        int(1540)
+        ["accountNumber"]=>
+        string(4) "1799"
+        ["accountName"]=>
+        string(26) "Välitili, myyntireskontra"
+      }
+    }
+  }
+  [2]=>
+  object(stdClass)#328 (8) {
+    ["voucherType"]=>
+    string(1) "2"
+    ["voucherTypeName"]=>
+    string(11) "Suoritukset"
+    ["voucherNumber"]=>
+    string(10) "2231100003"
+    ["voucherDate"]=>
+    string(10) "2023-11-27"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(2) {
+      [0]=>
+      object(stdClass)#329 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(31) "TAMPEREEN TA [11275UTZ00093505]"
+        ["amount"]=>
+        int(3003)
+        ["accountNumber"]=>
+        string(4) "1799"
+        ["accountName"]=>
+        string(26) "Välitili, myyntireskontra"
+      }
+      [1]=>
+      object(stdClass)#330 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(16) "Lasku 6023110002"
+        ["amount"]=>
+        int(-3003)
+        ["accountNumber"]=>
+        string(4) "1701"
+        ["accountName"]=>
+        string(29) "Myyntisaamiset, iso reskontra"
+      }
+    }
+  }
+  [3]=>
+  object(stdClass)#331 (8) {
+    ["voucherType"]=>
+    string(1) "2"
+    ["voucherTypeName"]=>
+    string(11) "Suoritukset"
+    ["voucherNumber"]=>
+    string(10) "2231200001"
+    ["voucherDate"]=>
+    string(10) "2023-12-01"
+    ["accountingPeriod"]=>
+    int(202312)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(2) {
+      [0]=>
+      object(stdClass)#332 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(31) "TAMPEREEN TA [12015UTZ00401751]"
+        ["amount"]=>
+        int(1540)
+        ["accountNumber"]=>
+        string(4) "1799"
+        ["accountName"]=>
+        string(26) "Välitili, myyntireskontra"
+      }
+      [1]=>
+      object(stdClass)#333 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(16) "Lasku 6023110003"
+        ["amount"]=>
+        int(-1540)
+        ["accountNumber"]=>
+        string(4) "1701"
+        ["accountName"]=>
+        string(29) "Myyntisaamiset, iso reskontra"
+      }
+    }
+  }
+  [4]=>
+  object(stdClass)#334 (8) {
+    ["voucherType"]=>
+    string(1) "2"
+    ["voucherTypeName"]=>
+    string(11) "Suoritukset"
+    ["voucherNumber"]=>
+    string(10) "2231200002"
+    ["voucherDate"]=>
+    string(10) "2023-12-08"
+    ["accountingPeriod"]=>
+    int(202312)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(2) {
+      [0]=>
+      object(stdClass)#335 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(31) "TAMPEREEN TA [12085UTZ00447109]"
+        ["amount"]=>
+        float(1501.5)
+        ["accountNumber"]=>
+        string(4) "1799"
+        ["accountName"]=>
+        string(26) "Välitili, myyntireskontra"
+      }
+      [1]=>
+      object(stdClass)#336 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(16) "Lasku 6023120001"
+        ["amount"]=>
+        float(-1501.5)
+        ["accountNumber"]=>
+        string(4) "1701"
+        ["accountName"]=>
+        string(29) "Myyntisaamiset, iso reskontra"
+      }
+    }
+  }
+  [5]=>
+  object(stdClass)#337 (8) {
+    ["voucherType"]=>
+    string(1) "2"
+    ["voucherTypeName"]=>
+    string(11) "Suoritukset"
+    ["voucherNumber"]=>
+    string(10) "2231200003"
+    ["voucherDate"]=>
+    string(10) "2023-12-22"
+    ["accountingPeriod"]=>
+    int(202312)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(2) {
+      [0]=>
+      object(stdClass)#338 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(16) "Lasku 6023120002"
+        ["amount"]=>
+        int(-2772)
+        ["accountNumber"]=>
+        string(4) "1701"
+        ["accountName"]=>
+        string(29) "Myyntisaamiset, iso reskontra"
+      }
+      [1]=>
+      object(stdClass)#339 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(31) "TAMPEREEN TA [12225UTZ00230347]"
+        ["amount"]=>
+        int(2772)
+        ["accountNumber"]=>
+        string(4) "1799"
+        ["accountName"]=>
+        string(26) "Välitili, myyntireskontra"
+      }
+    }
+  }
+  [6]=>
+  object(stdClass)#340 (8) {
+    ["voucherType"]=>
+    string(1) "5"
+    ["voucherTypeName"]=>
+    string(10) "Ostolaskut"
+    ["voucherNumber"]=>
+    string(10) "5231100001"
+    ["voucherDate"]=>
+    string(10) "2023-11-07"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(4) {
+      [0]=>
+      object(stdClass)#341 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(33) "PLUSCOM TALOUSHALLINTO OY (1024) "
+        ["amount"]=>
+        float(-13.33)
+        ["accountNumber"]=>
+        string(4) "2871"
+        ["accountName"]=>
+        string(24) "Ostovelat, iso reskontra"
+      }
+      [1]=>
+      object(stdClass)#342 (6) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(65) "PLUSCOM TALOUSHALLINTO OY (1024) Autoinvoice lähetys/vastaanotto"
+        ["amount"]=>
+        float(5.59)
+        ["accountNumber"]=>
+        string(4) "8380"
+        ["accountName"]=>
+        string(22) "Taloushallintopalvelut"
+        ["vat"]=>
+        object(stdClass)#343 (4) {
+          ["vatCode"]=>
+          string(1) "U"
+          ["vatAmount"]=>
+          float(1.34)
+          ["vatAccount"]=>
+          string(4) "1763"
+          ["vatAccountName"]=>
+          string(30) "Ostojen arvonlisäverosaamiset"
+        }
+      }
+      [2]=>
+      object(stdClass)#344 (6) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(65) "PLUSCOM TALOUSHALLINTO OY (1024) Autoinvoice lähetys/vastaanotto"
+        ["amount"]=>
+        float(5.15)
+        ["accountNumber"]=>
+        string(4) "8380"
+        ["accountName"]=>
+        string(22) "Taloushallintopalvelut"
+        ["vat"]=>
+        object(stdClass)#345 (4) {
+          ["vatCode"]=>
+          string(1) "U"
+          ["vatAmount"]=>
+          float(1.25)
+          ["vatAccount"]=>
+          string(4) "1763"
+          ["vatAccountName"]=>
+          string(30) "Ostojen arvonlisäverosaamiset"
+        }
+      }
+      [3]=>
+      object(stdClass)#346 (5) {
+        ["entryNumber"]=>
+        int(3)
+        ["description"]=>
+        string(4) "Vero"
+        ["amount"]=>
+        float(2.59)
+        ["accountNumber"]=>
+        string(4) "1763"
+        ["accountName"]=>
+        string(30) "Ostojen arvonlisäverosaamiset"
+      }
+    }
+  }
+  [7]=>
+  object(stdClass)#347 (8) {
+    ["voucherType"]=>
+    string(1) "5"
+    ["voucherTypeName"]=>
+    string(10) "Ostolaskut"
+    ["voucherNumber"]=>
+    string(10) "5231100002"
+    ["voucherDate"]=>
+    string(10) "2023-11-13"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(3) {
+      [0]=>
+      object(stdClass)#348 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(23) "J&S HAPPONEN OY (1027) "
+        ["amount"]=>
+        float(-47.74)
+        ["accountNumber"]=>
+        string(4) "2871"
+        ["accountName"]=>
+        string(24) "Ostovelat, iso reskontra"
+      }
+      [1]=>
+      object(stdClass)#349 (6) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(23) "J&S HAPPONEN OY (1027) "
+        ["amount"]=>
+        float(38.5)
+        ["accountNumber"]=>
+        string(4) "4000"
+        ["accountName"]=>
+        string(14) "Ostot alv 24 %"
+        ["vat"]=>
+        object(stdClass)#350 (4) {
+          ["vatCode"]=>
+          string(1) "U"
+          ["vatAmount"]=>
+          float(9.24)
+          ["vatAccount"]=>
+          string(4) "1763"
+          ["vatAccountName"]=>
+          string(30) "Ostojen arvonlisäverosaamiset"
+        }
+      }
+      [2]=>
+      object(stdClass)#351 (5) {
+        ["entryNumber"]=>
+        int(3)
+        ["description"]=>
+        string(4) "Vero"
+        ["amount"]=>
+        float(9.24)
+        ["accountNumber"]=>
+        string(4) "1763"
+        ["accountName"]=>
+        string(30) "Ostojen arvonlisäverosaamiset"
+      }
+    }
+  }
+  [8]=>
+  object(stdClass)#352 (8) {
+    ["voucherType"]=>
+    string(1) "5"
+    ["voucherTypeName"]=>
+    string(10) "Ostolaskut"
+    ["voucherNumber"]=>
+    string(10) "5231200001"
+    ["voucherDate"]=>
+    string(10) "2023-12-31"
+    ["accountingPeriod"]=>
+    int(202312)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(16) {
+      [0]=>
+      object(stdClass)#353 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(33) "PLUSCOM TALOUSHALLINTO OY (1024) "
+        ["amount"]=>
+        float(-1143.28)
+        ["accountNumber"]=>
+        string(4) "2871"
+        ["accountName"]=>
+        string(24) "Ostovelat, iso reskontra"
+      }
+      [1]=>
+      object(stdClass)#354 (6) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(55) "PLUSCOM TALOUSHALLINTO OY (1024) Kirjanpito 04 huhtikuu"
+        ["amount"]=>
+        int(93)
+        ["accountNumber"]=>
+        string(4) "8380"
+        ["accountName"]=>
+        string(22) "Taloushallintopalvelut"
+        ["vat"]=>
+        object(stdClass)#355 (4) {
+          ["vatCode"]=>
+          string(1) "U"
+          ["vatAmount"]=>
+          float(22.32)
+          ["vatAccount"]=>
+          string(4) "1763"
+          ["vatAccountName"]=>
+          string(30) "Ostojen arvonlisäverosaamiset"
+        }
+      }
+      [2]=>
+      object(stdClass)#356 (6) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(58) "PLUSCOM TALOUSHALLINTO OY (1024) Veroilmoitus tulovero (h)"
+        ["amount"]=>
+        int(49)
+        ["accountNumber"]=>
+        string(4) "8380"
+        ["accountName"]=>
+        string(22) "Taloushallintopalvelut"
+        ["vat"]=>
+        object(stdClass)#357 (4) {
+          ["vatCode"]=>
+          string(1) "U"
+          ["vatAmount"]=>
+          float(11.76)
+          ["vatAccount"]=>
+          string(4) "1763"
+          ["vatAccountName"]=>
+          string(30) "Ostojen arvonlisäverosaamiset"
+        }
+      }
+      [3]=>
+      object(stdClass)#358 (6) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(61) "PLUSCOM TALOUSHALLINTO OY (1024) Fivaldi -tunnusmaksu 09/2023"
+        ["amount"]=>
+        int(37)
+        ["accountNumber"]=>
+        string(4) "8380"
+        ["accountName"]=>
+        string(22) "Taloushallintopalvelut"
+        ["vat"]=>
+        object(stdClass)#359 (4) {
+          ["vatCode"]=>
+          string(1) "U"
+          ["vatAmount"]=>
+          float(8.88)
+          ["vatAccount"]=>
+          string(4) "1763"
+          ["vatAccountName"]=>
+          string(30) "Ostojen arvonlisäverosaamiset"
+        }
+      }
+      [4]=>
+      object(stdClass)#360 (6) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(56) "PLUSCOM TALOUSHALLINTO OY (1024) Kirjanpito 07 heinäkuu"
+        ["amount"]=>
+        int(93)
+        ["accountNumber"]=>
+        string(4) "8380"
+        ["accountName"]=>
+        string(22) "Taloushallintopalvelut"
+        ["vat"]=>
+        object(stdClass)#361 (4) {
+          ["vatCode"]=>
+          string(1) "U"
+          ["vatAmount"]=>
+          float(22.32)
+          ["vatAccount"]=>
+          string(4) "1763"
+          ["vatAccountName"]=>
+          string(30) "Ostojen arvonlisäverosaamiset"
+        }
+      }
+      [5]=>
+      object(stdClass)#362 (6) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(61) "PLUSCOM TALOUSHALLINTO OY (1024) Fivaldi -tunnusmaksu 10/2023"
+        ["amount"]=>
+        int(37)
+        ["accountNumber"]=>
+        string(4) "8380"
+        ["accountName"]=>
+        string(22) "Taloushallintopalvelut"
+        ["vat"]=>
+        object(stdClass)#363 (4) {
+          ["vatCode"]=>
+          string(1) "U"
+          ["vatAmount"]=>
+          float(8.88)
+          ["vatAccount"]=>
+          string(4) "1763"
+          ["vatAccountName"]=>
+          string(30) "Ostojen arvonlisäverosaamiset"
+        }
+      }
+      [6]=>
+      object(stdClass)#364 (6) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(53) "PLUSCOM TALOUSHALLINTO OY (1024) Kirjanpito 08 elokuu"
+        ["amount"]=>
+        int(93)
+        ["accountNumber"]=>
+        string(4) "8380"
+        ["accountName"]=>
+        string(22) "Taloushallintopalvelut"
+        ["vat"]=>
+        object(stdClass)#365 (4) {
+          ["vatCode"]=>
+          string(1) "U"
+          ["vatAmount"]=>
+          float(22.32)
+          ["vatAccount"]=>
+          string(4) "1763"
+          ["vatAccountName"]=>
+          string(30) "Ostojen arvonlisäverosaamiset"
+        }
+      }
+      [7]=>
+      object(stdClass)#366 (6) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(61) "PLUSCOM TALOUSHALLINTO OY (1024) Fivaldi -tunnusmaksu 11/2023"
+        ["amount"]=>
+        int(37)
+        ["accountNumber"]=>
+        string(4) "8380"
+        ["accountName"]=>
+        string(22) "Taloushallintopalvelut"
+        ["vat"]=>
+        object(stdClass)#367 (4) {
+          ["vatCode"]=>
+          string(1) "U"
+          ["vatAmount"]=>
+          float(8.88)
+          ["vatAccount"]=>
+          string(4) "1763"
+          ["vatAccountName"]=>
+          string(30) "Ostojen arvonlisäverosaamiset"
+        }
+      }
+      [8]=>
+      object(stdClass)#368 (6) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(61) "PLUSCOM TALOUSHALLINTO OY (1024) Fivaldi -tunnusmaksu 12/2023"
+        ["amount"]=>
+        int(37)
+        ["accountNumber"]=>
+        string(4) "8380"
+        ["accountName"]=>
+        string(22) "Taloushallintopalvelut"
+        ["vat"]=>
+        object(stdClass)#369 (4) {
+          ["vatCode"]=>
+          string(1) "U"
+          ["vatAmount"]=>
+          float(8.88)
+          ["vatAccount"]=>
+          string(4) "1763"
+          ["vatAccountName"]=>
+          string(30) "Ostojen arvonlisäverosaamiset"
+        }
+      }
+      [9]=>
+      object(stdClass)#370 (6) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(61) "PLUSCOM TALOUSHALLINTO OY (1024) Fivaldi -tunnusmaksu 01/2024"
+        ["amount"]=>
+        int(37)
+        ["accountNumber"]=>
+        string(4) "8380"
+        ["accountName"]=>
+        string(22) "Taloushallintopalvelut"
+        ["vat"]=>
+        object(stdClass)#371 (4) {
+          ["vatCode"]=>
+          string(1) "U"
+          ["vatAmount"]=>
+          float(8.88)
+          ["vatAccount"]=>
+          string(4) "1763"
+          ["vatAccountName"]=>
+          string(30) "Ostojen arvonlisäverosaamiset"
+        }
+      }
+      [10]=>
+      object(stdClass)#372 (6) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(55) "PLUSCOM TALOUSHALLINTO OY (1024) Kirjanpito 06 kesäkuu"
+        ["amount"]=>
+        int(93)
+        ["accountNumber"]=>
+        string(4) "8380"
+        ["accountName"]=>
+        string(22) "Taloushallintopalvelut"
+        ["vat"]=>
+        object(stdClass)#373 (4) {
+          ["vatCode"]=>
+          string(1) "U"
+          ["vatAmount"]=>
+          float(22.32)
+          ["vatAccount"]=>
+          string(4) "1763"
+          ["vatAccountName"]=>
+          string(30) "Ostojen arvonlisäverosaamiset"
+        }
+      }
+      [11]=>
+      object(stdClass)#374 (6) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(54) "PLUSCOM TALOUSHALLINTO OY (1024) Kirjanpito 09 syyskuu"
+        ["amount"]=>
+        int(93)
+        ["accountNumber"]=>
+        string(4) "8380"
+        ["accountName"]=>
+        string(22) "Taloushallintopalvelut"
+        ["vat"]=>
+        object(stdClass)#375 (4) {
+          ["vatCode"]=>
+          string(1) "U"
+          ["vatAmount"]=>
+          float(22.32)
+          ["vatAccount"]=>
+          string(4) "1763"
+          ["vatAccountName"]=>
+          string(30) "Ostojen arvonlisäverosaamiset"
+        }
+      }
+      [12]=>
+      object(stdClass)#376 (6) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(54) "PLUSCOM TALOUSHALLINTO OY (1024) Kirjanpito 10 lokakuu"
+        ["amount"]=>
+        int(93)
+        ["accountNumber"]=>
+        string(4) "8380"
+        ["accountName"]=>
+        string(22) "Taloushallintopalvelut"
+        ["vat"]=>
+        object(stdClass)#377 (4) {
+          ["vatCode"]=>
+          string(1) "U"
+          ["vatAmount"]=>
+          float(22.32)
+          ["vatAccount"]=>
+          string(4) "1763"
+          ["vatAccountName"]=>
+          string(30) "Ostojen arvonlisäverosaamiset"
+        }
+      }
+      [13]=>
+      object(stdClass)#378 (6) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(55) "PLUSCOM TALOUSHALLINTO OY (1024) Kirjanpito 05 toukokuu"
+        ["amount"]=>
+        int(93)
+        ["accountNumber"]=>
+        string(4) "8380"
+        ["accountName"]=>
+        string(22) "Taloushallintopalvelut"
+        ["vat"]=>
+        object(stdClass)#379 (4) {
+          ["vatCode"]=>
+          string(1) "U"
+          ["vatAmount"]=>
+          float(22.32)
+          ["vatAccount"]=>
+          string(4) "1763"
+          ["vatAccountName"]=>
+          string(30) "Ostojen arvonlisäverosaamiset"
+        }
+      }
+      [14]=>
+      object(stdClass)#380 (6) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(61) "PLUSCOM TALOUSHALLINTO OY (1024) Fivaldi -tunnusmaksu 08/2023"
+        ["amount"]=>
+        int(37)
+        ["accountNumber"]=>
+        string(4) "8380"
+        ["accountName"]=>
+        string(22) "Taloushallintopalvelut"
+        ["vat"]=>
+        object(stdClass)#381 (4) {
+          ["vatCode"]=>
+          string(1) "U"
+          ["vatAmount"]=>
+          float(8.88)
+          ["vatAccount"]=>
+          string(4) "1763"
+          ["vatAccountName"]=>
+          string(30) "Ostojen arvonlisäverosaamiset"
+        }
+      }
+      [15]=>
+      object(stdClass)#382 (5) {
+        ["entryNumber"]=>
+        int(3)
+        ["description"]=>
+        string(4) "Vero"
+        ["amount"]=>
+        float(221.28)
+        ["accountNumber"]=>
+        string(4) "1763"
+        ["accountName"]=>
+        string(30) "Ostojen arvonlisäverosaamiset"
+      }
+    }
+  }
+  [9]=>
+  object(stdClass)#383 (8) {
+    ["voucherType"]=>
+    string(1) "6"
+    ["voucherTypeName"]=>
+    string(6) "Maksut"
+    ["voucherNumber"]=>
+    string(10) "6231100001"
+    ["voucherDate"]=>
+    string(10) "2023-11-13"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(2) {
+      [0]=>
+      object(stdClass)#384 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(16) "maksu 5231000003"
+        ["amount"]=>
+        float(-338.97)
+        ["accountNumber"]=>
+        string(4) "2899"
+        ["accountName"]=>
+        string(24) "Välitili, ostoreskontra"
+      }
+      [1]=>
+      object(stdClass)#385 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(19) "Kuittaus 5231000003"
+        ["amount"]=>
+        float(338.97)
+        ["accountNumber"]=>
+        string(4) "2871"
+        ["accountName"]=>
+        string(24) "Ostovelat, iso reskontra"
+      }
+    }
+  }
+  [10]=>
+  object(stdClass)#386 (8) {
+    ["voucherType"]=>
+    string(1) "6"
+    ["voucherTypeName"]=>
+    string(6) "Maksut"
+    ["voucherNumber"]=>
+    string(10) "6231100002"
+    ["voucherDate"]=>
+    string(10) "2023-11-20"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(2) {
+      [0]=>
+      object(stdClass)#387 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(16) "maksu 5231000002"
+        ["amount"]=>
+        float(-172.29)
+        ["accountNumber"]=>
+        string(4) "2899"
+        ["accountName"]=>
+        string(24) "Välitili, ostoreskontra"
+      }
+      [1]=>
+      object(stdClass)#388 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(19) "Kuittaus 5231000002"
+        ["amount"]=>
+        float(172.29)
+        ["accountNumber"]=>
+        string(4) "2871"
+        ["accountName"]=>
+        string(24) "Ostovelat, iso reskontra"
+      }
+    }
+  }
+  [11]=>
+  object(stdClass)#389 (8) {
+    ["voucherType"]=>
+    string(1) "6"
+    ["voucherTypeName"]=>
+    string(6) "Maksut"
+    ["voucherNumber"]=>
+    string(10) "6231100003"
+    ["voucherDate"]=>
+    string(10) "2023-11-29"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(2) {
+      [0]=>
+      object(stdClass)#390 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(19) "Kuittaus 5231100001"
+        ["amount"]=>
+        float(13.33)
+        ["accountNumber"]=>
+        string(4) "2871"
+        ["accountName"]=>
+        string(24) "Ostovelat, iso reskontra"
+      }
+      [1]=>
+      object(stdClass)#391 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(16) "maksu 5231100001"
+        ["amount"]=>
+        float(-13.33)
+        ["accountNumber"]=>
+        string(4) "2899"
+        ["accountName"]=>
+        string(24) "Välitili, ostoreskontra"
+      }
+    }
+  }
+  [12]=>
+  object(stdClass)#392 (8) {
+    ["voucherType"]=>
+    string(1) "6"
+    ["voucherTypeName"]=>
+    string(6) "Maksut"
+    ["voucherNumber"]=>
+    string(10) "6231100004"
+    ["voucherDate"]=>
+    string(10) "2023-11-29"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(2) {
+      [0]=>
+      object(stdClass)#393 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(19) "Kuittaus 5231100002"
+        ["amount"]=>
+        float(47.74)
+        ["accountNumber"]=>
+        string(4) "2871"
+        ["accountName"]=>
+        string(24) "Ostovelat, iso reskontra"
+      }
+      [1]=>
+      object(stdClass)#394 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(16) "maksu 5231100002"
+        ["amount"]=>
+        float(-47.74)
+        ["accountNumber"]=>
+        string(4) "2899"
+        ["accountName"]=>
+        string(24) "Välitili, ostoreskontra"
+      }
+    }
+  }
+  [13]=>
+  object(stdClass)#395 (8) {
+    ["voucherType"]=>
+    string(2) "40"
+    ["voucherTypeName"]=>
+    string(7) "TITO OP"
+    ["voucherNumber"]=>
+    string(11) "40231100001"
+    ["voucherDate"]=>
+    string(10) "2023-11-02"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(2) {
+      [0]=>
+      object(stdClass)#396 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(38) "Henrik Hammarberg (2311025936192U3915)"
+        ["amount"]=>
+        int(-200)
+        ["accountNumber"]=>
+        string(4) "1920"
+        ["accountName"]=>
+        string(13) "Pankkitili OP"
+      }
+      [1]=>
+      object(stdClass)#397 (5) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(38) "Henrik Hammarberg (2311025936192U3915)"
+        ["amount"]=>
+        int(200)
+        ["accountNumber"]=>
+        string(4) "2365"
+        ["accountName"]=>
+        string(21) "Yksityisnostot rahana"
+      }
+    }
+  }
+  [14]=>
+  object(stdClass)#398 (8) {
+    ["voucherType"]=>
+    string(2) "40"
+    ["voucherTypeName"]=>
+    string(7) "TITO OP"
+    ["voucherNumber"]=>
+    string(11) "40231100002"
+    ["voucherDate"]=>
+    string(10) "2023-11-06"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(2) {
+      [0]=>
+      object(stdClass)#399 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(46) "OSUUSPANKKI / 33965203472 (2311065 AL  242776)"
+        ["amount"]=>
+        float(-30.45)
+        ["accountNumber"]=>
+        string(4) "1920"
+        ["accountName"]=>
+        string(13) "Pankkitili OP"
+      }
+      [1]=>
+      object(stdClass)#400 (5) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(46) "OSUUSPANKKI / 33965203472 (2311065 AL  242776)"
+        ["amount"]=>
+        float(30.45)
+        ["accountNumber"]=>
+        string(4) "8560"
+        ["accountName"]=>
+        string(20) "Rahaliikenteen kulut"
+      }
+    }
+  }
+  [15]=>
+  object(stdClass)#401 (8) {
+    ["voucherType"]=>
+    string(2) "40"
+    ["voucherTypeName"]=>
+    string(7) "TITO OP"
+    ["voucherNumber"]=>
+    string(11) "40231100003"
+    ["voucherDate"]=>
+    string(10) "2023-11-06"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(2) {
+      [0]=>
+      object(stdClass)#402 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(39) "VIITESIIRTO  (705) (231106500001999999)"
+        ["amount"]=>
+        int(2772)
+        ["accountNumber"]=>
+        string(4) "1920"
+        ["accountName"]=>
+        string(13) "Pankkitili OP"
+      }
+      [1]=>
+      object(stdClass)#403 (5) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(39) "VIITESIIRTO  (705) (231106500001999999)"
+        ["amount"]=>
+        int(-2772)
+        ["accountNumber"]=>
+        string(4) "1799"
+        ["accountName"]=>
+        string(26) "Välitili, myyntireskontra"
+      }
+    }
+  }
+  [16]=>
+  object(stdClass)#404 (8) {
+    ["voucherType"]=>
+    string(2) "40"
+    ["voucherTypeName"]=>
+    string(7) "TITO OP"
+    ["voucherNumber"]=>
+    string(11) "40231100004"
+    ["voucherDate"]=>
+    string(10) "2023-11-07"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(2) {
+      [0]=>
+      object(stdClass)#405 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(38) "Henrik Hammarberg (2311075936192R5953)"
+        ["amount"]=>
+        int(-200)
+        ["accountNumber"]=>
+        string(4) "1920"
+        ["accountName"]=>
+        string(13) "Pankkitili OP"
+      }
+      [1]=>
+      object(stdClass)#406 (5) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(38) "Henrik Hammarberg (2311075936192R5953)"
+        ["amount"]=>
+        int(200)
+        ["accountNumber"]=>
+        string(4) "2365"
+        ["accountName"]=>
+        string(21) "Yksityisnostot rahana"
+      }
+    }
+  }
+  [17]=>
+  object(stdClass)#407 (8) {
+    ["voucherType"]=>
+    string(2) "40"
+    ["voucherTypeName"]=>
+    string(7) "TITO OP"
+    ["voucherNumber"]=>
+    string(11) "40231100005"
+    ["voucherDate"]=>
+    string(10) "2023-11-07"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(2) {
+      [0]=>
+      object(stdClass)#408 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(38) "Henrik Hammarberg (2311075936192Y2604)"
+        ["amount"]=>
+        int(-300)
+        ["accountNumber"]=>
+        string(4) "1920"
+        ["accountName"]=>
+        string(13) "Pankkitili OP"
+      }
+      [1]=>
+      object(stdClass)#409 (5) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(38) "Henrik Hammarberg (2311075936192Y2604)"
+        ["amount"]=>
+        int(300)
+        ["accountNumber"]=>
+        string(4) "2365"
+        ["accountName"]=>
+        string(21) "Yksityisnostot rahana"
+      }
+    }
+  }
+  [18]=>
+  object(stdClass)#410 (8) {
+    ["voucherType"]=>
+    string(2) "40"
+    ["voucherTypeName"]=>
+    string(7) "TITO OP"
+    ["voucherNumber"]=>
+    string(11) "40231100006"
+    ["voucherDate"]=>
+    string(10) "2023-11-07"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(2) {
+      [0]=>
+      object(stdClass)#411 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(56) "POHJOLA VAKUUTUS OY / 2412255598157 (2311075936192Z2500)"
+        ["amount"]=>
+        float(-206.37)
+        ["accountNumber"]=>
+        string(4) "1920"
+        ["accountName"]=>
+        string(13) "Pankkitili OP"
+      }
+      [1]=>
+      object(stdClass)#412 (5) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(56) "POHJOLA VAKUUTUS OY / 2412255598157 (2311075936192Z2500)"
+        ["amount"]=>
+        float(206.37)
+        ["accountNumber"]=>
+        string(4) "2947"
+        ["accountName"]=>
+        string(7) "E-tasku"
+      }
+    }
+  }
+  [19]=>
+  object(stdClass)#413 (8) {
+    ["voucherType"]=>
+    string(2) "40"
+    ["voucherTypeName"]=>
+    string(7) "TITO OP"
+    ["voucherNumber"]=>
+    string(11) "40231100007"
+    ["voucherDate"]=>
+    string(10) "2023-11-08"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(2) {
+      [0]=>
+      object(stdClass)#414 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(49) "NESTE EXPRESS YLOJA YLOJARVI (2311085EQEO1092439)"
+        ["amount"]=>
+        int(-50)
+        ["accountNumber"]=>
+        string(4) "1920"
+        ["accountName"]=>
+        string(13) "Pankkitili OP"
+      }
+      [1]=>
+      object(stdClass)#415 (5) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(49) "NESTE EXPRESS YLOJA YLOJARVI (2311085EQEO1092439)"
+        ["amount"]=>
+        int(50)
+        ["accountNumber"]=>
+        string(4) "2947"
+        ["accountName"]=>
+        string(7) "E-tasku"
+      }
+    }
+  }
+  [20]=>
+  object(stdClass)#416 (8) {
+    ["voucherType"]=>
+    string(2) "40"
+    ["voucherTypeName"]=>
+    string(7) "TITO OP"
+    ["voucherNumber"]=>
+    string(11) "40231100008"
+    ["voucherDate"]=>
+    string(10) "2023-11-09"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(2) {
+      [0]=>
+      object(stdClass)#417 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(38) "Henrik Hammarberg (2311095936192K0239)"
+        ["amount"]=>
+        int(-50)
+        ["accountNumber"]=>
+        string(4) "1920"
+        ["accountName"]=>
+        string(13) "Pankkitili OP"
+      }
+      [1]=>
+      object(stdClass)#418 (5) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(38) "Henrik Hammarberg (2311095936192K0239)"
+        ["amount"]=>
+        int(50)
+        ["accountNumber"]=>
+        string(4) "2365"
+        ["accountName"]=>
+        string(21) "Yksityisnostot rahana"
+      }
+    }
+  }
+  [21]=>
+  object(stdClass)#419 (8) {
+    ["voucherType"]=>
+    string(2) "40"
+    ["voucherTypeName"]=>
+    string(7) "TITO OP"
+    ["voucherNumber"]=>
+    string(11) "40231100009"
+    ["voucherDate"]=>
+    string(10) "2023-11-10"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(2) {
+      [0]=>
+      object(stdClass)#420 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(38) "Henrik Hammarberg (2311105936192L4659)"
+        ["amount"]=>
+        int(-200)
+        ["accountNumber"]=>
+        string(4) "1920"
+        ["accountName"]=>
+        string(13) "Pankkitili OP"
+      }
+      [1]=>
+      object(stdClass)#421 (5) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(38) "Henrik Hammarberg (2311105936192L4659)"
+        ["amount"]=>
+        int(200)
+        ["accountNumber"]=>
+        string(4) "2365"
+        ["accountName"]=>
+        string(21) "Yksityisnostot rahana"
+      }
+    }
+  }
+  [22]=>
+  object(stdClass)#422 (8) {
+    ["voucherType"]=>
+    string(2) "40"
+    ["voucherTypeName"]=>
+    string(7) "TITO OP"
+    ["voucherNumber"]=>
+    string(11) "40231100010"
+    ["voucherDate"]=>
+    string(10) "2023-11-10"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(2) {
+      [0]=>
+      object(stdClass)#423 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(39) "VIITESIIRTO  (705) (231110500001999999)"
+        ["amount"]=>
+        int(1540)
+        ["accountNumber"]=>
+        string(4) "1920"
+        ["accountName"]=>
+        string(13) "Pankkitili OP"
+      }
+      [1]=>
+      object(stdClass)#424 (5) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(39) "VIITESIIRTO  (705) (231110500001999999)"
+        ["amount"]=>
+        int(-1540)
+        ["accountNumber"]=>
+        string(4) "1799"
+        ["accountName"]=>
+        string(26) "Välitili, myyntireskontra"
+      }
+    }
+  }
+  [23]=>
+  object(stdClass)#425 (8) {
+    ["voucherType"]=>
+    string(2) "40"
+    ["voucherTypeName"]=>
+    string(7) "TITO OP"
+    ["voucherNumber"]=>
+    string(11) "40231100011"
+    ["voucherDate"]=>
+    string(10) "2023-11-13"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(2) {
+      [0]=>
+      object(stdClass)#426 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(59) "J&S HAPPONEN OY / 85482260826378960769 (2311135UTV00865527)"
+        ["amount"]=>
+        float(-338.97)
+        ["accountNumber"]=>
+        string(4) "1920"
+        ["accountName"]=>
+        string(13) "Pankkitili OP"
+      }
+      [1]=>
+      object(stdClass)#427 (5) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(59) "J&S HAPPONEN OY / 85482260826378960769 (2311135UTV00865527)"
+        ["amount"]=>
+        float(338.97)
+        ["accountNumber"]=>
+        string(4) "2899"
+        ["accountName"]=>
+        string(24) "Välitili, ostoreskontra"
+      }
+    }
+  }
+  [24]=>
+  object(stdClass)#428 (8) {
+    ["voucherType"]=>
+    string(2) "40"
+    ["voucherTypeName"]=>
+    string(7) "TITO OP"
+    ["voucherNumber"]=>
+    string(11) "40231100012"
+    ["voucherDate"]=>
+    string(10) "2023-11-14"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(2) {
+      [0]=>
+      object(stdClass)#429 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(38) "Henrik Hammarberg (231114593619306720)"
+        ["amount"]=>
+        int(-1500)
+        ["accountNumber"]=>
+        string(4) "1920"
+        ["accountName"]=>
+        string(13) "Pankkitili OP"
+      }
+      [1]=>
+      object(stdClass)#430 (5) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(38) "Henrik Hammarberg (231114593619306720)"
+        ["amount"]=>
+        int(1500)
+        ["accountNumber"]=>
+        string(4) "2365"
+        ["accountName"]=>
+        string(21) "Yksityisnostot rahana"
+      }
+    }
+  }
+  [25]=>
+  object(stdClass)#431 (8) {
+    ["voucherType"]=>
+    string(2) "40"
+    ["voucherTypeName"]=>
+    string(7) "TITO OP"
+    ["voucherNumber"]=>
+    string(11) "40231100013"
+    ["voucherDate"]=>
+    string(10) "2023-11-15"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(2) {
+      [0]=>
+      object(stdClass)#432 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(49) "7272 Teboil Ylojarv Ylojarvi (2311155EQEO1035291)"
+        ["amount"]=>
+        int(-50)
+        ["accountNumber"]=>
+        string(4) "1920"
+        ["accountName"]=>
+        string(13) "Pankkitili OP"
+      }
+      [1]=>
+      object(stdClass)#433 (5) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(6) "Teboil"
+        ["amount"]=>
+        int(50)
+        ["accountNumber"]=>
+        string(4) "2947"
+        ["accountName"]=>
+        string(7) "E-tasku"
+      }
+    }
+  }
+  [26]=>
+  object(stdClass)#434 (8) {
+    ["voucherType"]=>
+    string(2) "40"
+    ["voucherTypeName"]=>
+    string(7) "TITO OP"
+    ["voucherNumber"]=>
+    string(11) "40231100014"
+    ["voucherDate"]=>
+    string(10) "2023-11-17"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(2) {
+      [0]=>
+      object(stdClass)#435 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(38) "Henrik Hammarberg (2311175936191Y4604)"
+        ["amount"]=>
+        int(-400)
+        ["accountNumber"]=>
+        string(4) "1920"
+        ["accountName"]=>
+        string(13) "Pankkitili OP"
+      }
+      [1]=>
+      object(stdClass)#436 (5) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(38) "Henrik Hammarberg (2311175936191Y4604)"
+        ["amount"]=>
+        int(400)
+        ["accountNumber"]=>
+        string(4) "2365"
+        ["accountName"]=>
+        string(21) "Yksityisnostot rahana"
+      }
+    }
+  }
+  [27]=>
+  object(stdClass)#437 (8) {
+    ["voucherType"]=>
+    string(2) "40"
+    ["voucherTypeName"]=>
+    string(7) "TITO OP"
+    ["voucherNumber"]=>
+    string(11) "40231100015"
+    ["voucherDate"]=>
+    string(10) "2023-11-20"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(2) {
+      [0]=>
+      object(stdClass)#438 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(48) "Verohallinto / 600224979883 (231119598512000633)"
+        ["amount"]=>
+        float(-9.01)
+        ["accountNumber"]=>
+        string(4) "1920"
+        ["accountName"]=>
+        string(13) "Pankkitili OP"
+      }
+      [1]=>
+      object(stdClass)#439 (6) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(48) "Verohallinto / 600224979883 (231119598512000633)"
+        ["amount"]=>
+        float(9.01)
+        ["accountNumber"]=>
+        string(4) "2937"
+        ["accountName"]=>
+        string(13) "ALV-maksutili"
+        ["vat"]=>
+        object(stdClass)#440 (4) {
+          ["vatCode"]=>
+          string(1) "m"
+          ["vatAmount"]=>
+          int(0)
+          ["vatAccount"]=>
+          string(4) "1763"
+          ["vatAccountName"]=>
+          string(30) "Ostojen arvonlisäverosaamiset"
+        }
+      }
+    }
+  }
+  [28]=>
+  object(stdClass)#441 (8) {
+    ["voucherType"]=>
+    string(2) "40"
+    ["voucherTypeName"]=>
+    string(7) "TITO OP"
+    ["voucherNumber"]=>
+    string(11) "40231100016"
+    ["voucherDate"]=>
+    string(10) "2023-11-20"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(2) {
+      [0]=>
+      object(stdClass)#442 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(82) "Keskinäinen Eläkevakuutusyhtiö Ilma / 54644854226677372312 (2311135UTV00865565)"
+        ["amount"]=>
+        float(-172.29)
+        ["accountNumber"]=>
+        string(4) "1920"
+        ["accountName"]=>
+        string(13) "Pankkitili OP"
+      }
+      [1]=>
+      object(stdClass)#443 (5) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(82) "Keskinäinen Eläkevakuutusyhtiö Ilma / 54644854226677372312 (2311135UTV00865565)"
+        ["amount"]=>
+        float(172.29)
+        ["accountNumber"]=>
+        string(4) "2899"
+        ["accountName"]=>
+        string(24) "Välitili, ostoreskontra"
+      }
+    }
+  }
+  [29]=>
+  object(stdClass)#444 (8) {
+    ["voucherType"]=>
+    string(2) "40"
+    ["voucherTypeName"]=>
+    string(7) "TITO OP"
+    ["voucherNumber"]=>
+    string(11) "40231100017"
+    ["voucherDate"]=>
+    string(10) "2023-11-20"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(2) {
+      [0]=>
+      object(stdClass)#445 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(49) "TOKMANNI YLOJARVI E YLOJARVI (2311205EQEO1400277)"
+        ["amount"]=>
+        float(-7.89)
+        ["accountNumber"]=>
+        string(4) "1920"
+        ["accountName"]=>
+        string(13) "Pankkitili OP"
+      }
+      [1]=>
+      object(stdClass)#446 (5) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(8) "Tokmanni"
+        ["amount"]=>
+        float(7.89)
+        ["accountNumber"]=>
+        string(4) "2947"
+        ["accountName"]=>
+        string(7) "E-tasku"
+      }
+    }
+  }
+  [30]=>
+  object(stdClass)#447 (8) {
+    ["voucherType"]=>
+    string(2) "40"
+    ["voucherTypeName"]=>
+    string(7) "TITO OP"
+    ["voucherNumber"]=>
+    string(11) "40231100018"
+    ["voucherDate"]=>
+    string(10) "2023-11-22"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(2) {
+      [0]=>
+      object(stdClass)#448 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(49) "7272 Teboil Ylojarv Ylojarvi (2311225EQEO1102001)"
+        ["amount"]=>
+        int(-50)
+        ["accountNumber"]=>
+        string(4) "1920"
+        ["accountName"]=>
+        string(13) "Pankkitili OP"
+      }
+      [1]=>
+      object(stdClass)#449 (5) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(6) "Teboil"
+        ["amount"]=>
+        int(50)
+        ["accountNumber"]=>
+        string(4) "2947"
+        ["accountName"]=>
+        string(7) "E-tasku"
+      }
+    }
+  }
+  [31]=>
+  object(stdClass)#450 (8) {
+    ["voucherType"]=>
+    string(2) "40"
+    ["voucherTypeName"]=>
+    string(7) "TITO OP"
+    ["voucherNumber"]=>
+    string(11) "40231100019"
+    ["voucherDate"]=>
+    string(10) "2023-11-23"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(2) {
+      [0]=>
+      object(stdClass)#451 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(38) "Henrik Hammarberg (231123593619211922)"
+        ["amount"]=>
+        int(-60)
+        ["accountNumber"]=>
+        string(4) "1920"
+        ["accountName"]=>
+        string(13) "Pankkitili OP"
+      }
+      [1]=>
+      object(stdClass)#452 (5) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(38) "Henrik Hammarberg (231123593619211922)"
+        ["amount"]=>
+        int(60)
+        ["accountNumber"]=>
+        string(4) "2365"
+        ["accountName"]=>
+        string(21) "Yksityisnostot rahana"
+      }
+    }
+  }
+  [32]=>
+  object(stdClass)#453 (8) {
+    ["voucherType"]=>
+    string(2) "40"
+    ["voucherTypeName"]=>
+    string(7) "TITO OP"
+    ["voucherNumber"]=>
+    string(11) "40231100020"
+    ["voucherDate"]=>
+    string(10) "2023-11-27"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(2) {
+      [0]=>
+      object(stdClass)#454 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(49) "7272 Teboil Ylojarv Ylojarvi (2311275EQEO6937897)"
+        ["amount"]=>
+        int(-50)
+        ["accountNumber"]=>
+        string(4) "1920"
+        ["accountName"]=>
+        string(13) "Pankkitili OP"
+      }
+      [1]=>
+      object(stdClass)#455 (5) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(6) "Teboil"
+        ["amount"]=>
+        int(50)
+        ["accountNumber"]=>
+        string(4) "2947"
+        ["accountName"]=>
+        string(7) "E-tasku"
+      }
+    }
+  }
+  [33]=>
+  object(stdClass)#456 (8) {
+    ["voucherType"]=>
+    string(2) "40"
+    ["voucherTypeName"]=>
+    string(7) "TITO OP"
+    ["voucherNumber"]=>
+    string(11) "40231100021"
+    ["voucherDate"]=>
+    string(10) "2023-11-27"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(2) {
+      [0]=>
+      object(stdClass)#457 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(49) "TOKMANNI YLOJARVI E YLOJARVI (2311275EQEO6937898)"
+        ["amount"]=>
+        float(-25.87)
+        ["accountNumber"]=>
+        string(4) "1920"
+        ["accountName"]=>
+        string(13) "Pankkitili OP"
+      }
+      [1]=>
+      object(stdClass)#458 (5) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(8) "Tokmanni"
+        ["amount"]=>
+        float(25.87)
+        ["accountNumber"]=>
+        string(4) "2947"
+        ["accountName"]=>
+        string(7) "E-tasku"
+      }
+    }
+  }
+  [34]=>
+  object(stdClass)#459 (8) {
+    ["voucherType"]=>
+    string(2) "40"
+    ["voucherTypeName"]=>
+    string(7) "TITO OP"
+    ["voucherNumber"]=>
+    string(11) "40231100022"
+    ["voucherDate"]=>
+    string(10) "2023-11-27"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(2) {
+      [0]=>
+      object(stdClass)#460 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(48) "Verohallinto / 200237701862 (2311275936191S8468)"
+        ["amount"]=>
+        float(-1285.54)
+        ["accountNumber"]=>
+        string(4) "1920"
+        ["accountName"]=>
+        string(13) "Pankkitili OP"
+      }
+      [1]=>
+      object(stdClass)#461 (5) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(48) "Verohallinto / 200237701862 (2311275936191S8468)"
+        ["amount"]=>
+        float(1285.54)
+        ["accountNumber"]=>
+        string(4) "9900"
+        ["accountName"]=>
+        string(12) "Ennakkoverot"
+      }
+    }
+  }
+  [35]=>
+  object(stdClass)#462 (8) {
+    ["voucherType"]=>
+    string(2) "40"
+    ["voucherTypeName"]=>
+    string(7) "TITO OP"
+    ["voucherNumber"]=>
+    string(11) "40231100023"
+    ["voucherDate"]=>
+    string(10) "2023-11-27"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(2) {
+      [0]=>
+      object(stdClass)#463 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(38) "Henrik Hammarberg (2311275936191S8993)"
+        ["amount"]=>
+        int(-500)
+        ["accountNumber"]=>
+        string(4) "1920"
+        ["accountName"]=>
+        string(13) "Pankkitili OP"
+      }
+      [1]=>
+      object(stdClass)#464 (5) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(38) "Henrik Hammarberg (2311275936191S8993)"
+        ["amount"]=>
+        int(500)
+        ["accountNumber"]=>
+        string(4) "2365"
+        ["accountName"]=>
+        string(21) "Yksityisnostot rahana"
+      }
+    }
+  }
+  [36]=>
+  object(stdClass)#465 (8) {
+    ["voucherType"]=>
+    string(2) "40"
+    ["voucherTypeName"]=>
+    string(7) "TITO OP"
+    ["voucherNumber"]=>
+    string(11) "40231100024"
+    ["voucherDate"]=>
+    string(10) "2023-11-27"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(2) {
+      [0]=>
+      object(stdClass)#466 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(38) "Henrik Hammarberg (2311275936191T4993)"
+        ["amount"]=>
+        int(-300)
+        ["accountNumber"]=>
+        string(4) "1920"
+        ["accountName"]=>
+        string(13) "Pankkitili OP"
+      }
+      [1]=>
+      object(stdClass)#467 (5) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(38) "Henrik Hammarberg (2311275936191T4993)"
+        ["amount"]=>
+        int(300)
+        ["accountNumber"]=>
+        string(4) "2365"
+        ["accountName"]=>
+        string(21) "Yksityisnostot rahana"
+      }
+    }
+  }
+  [37]=>
+  object(stdClass)#468 (8) {
+    ["voucherType"]=>
+    string(2) "40"
+    ["voucherTypeName"]=>
+    string(7) "TITO OP"
+    ["voucherNumber"]=>
+    string(11) "40231100025"
+    ["voucherDate"]=>
+    string(10) "2023-11-27"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(2) {
+      [0]=>
+      object(stdClass)#469 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(39) "VIITESIIRTO  (705) (231127500001999999)"
+        ["amount"]=>
+        int(3003)
+        ["accountNumber"]=>
+        string(4) "1920"
+        ["accountName"]=>
+        string(13) "Pankkitili OP"
+      }
+      [1]=>
+      object(stdClass)#470 (5) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(39) "VIITESIIRTO  (705) (231127500001999999)"
+        ["amount"]=>
+        int(-3003)
+        ["accountNumber"]=>
+        string(4) "1799"
+        ["accountName"]=>
+        string(26) "Välitili, myyntireskontra"
+      }
+    }
+  }
+  [38]=>
+  object(stdClass)#471 (8) {
+    ["voucherType"]=>
+    string(2) "40"
+    ["voucherTypeName"]=>
+    string(7) "TITO OP"
+    ["voucherNumber"]=>
+    string(11) "40231100026"
+    ["voucherDate"]=>
+    string(10) "2023-11-29"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(2) {
+      [0]=>
+      object(stdClass)#472 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(59) "J&S HAPPONEN OY / 85482260826379406507 (2311295UTV00900838)"
+        ["amount"]=>
+        float(-47.74)
+        ["accountNumber"]=>
+        string(4) "1920"
+        ["accountName"]=>
+        string(13) "Pankkitili OP"
+      }
+      [1]=>
+      object(stdClass)#473 (5) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(59) "J&S HAPPONEN OY / 85482260826379406507 (2311295UTV00900838)"
+        ["amount"]=>
+        float(47.74)
+        ["accountNumber"]=>
+        string(4) "2899"
+        ["accountName"]=>
+        string(24) "Välitili, ostoreskontra"
+      }
+    }
+  }
+  [39]=>
+  object(stdClass)#474 (8) {
+    ["voucherType"]=>
+    string(2) "40"
+    ["voucherTypeName"]=>
+    string(7) "TITO OP"
+    ["voucherNumber"]=>
+    string(11) "40231100027"
+    ["voucherDate"]=>
+    string(10) "2023-11-29"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(2) {
+      [0]=>
+      object(stdClass)#475 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(66) "PLUSCOM TALOUSHALLINTO OY / 25215300150518695 (2311295UTV00900838)"
+        ["amount"]=>
+        float(-13.33)
+        ["accountNumber"]=>
+        string(4) "1920"
+        ["accountName"]=>
+        string(13) "Pankkitili OP"
+      }
+      [1]=>
+      object(stdClass)#476 (5) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(66) "PLUSCOM TALOUSHALLINTO OY / 25215300150518695 (2311295UTV00900838)"
+        ["amount"]=>
+        float(13.33)
+        ["accountNumber"]=>
+        string(4) "2899"
+        ["accountName"]=>
+        string(24) "Välitili, ostoreskontra"
+      }
+    }
+  }
+  [40]=>
+  object(stdClass)#477 (8) {
+    ["voucherType"]=>
+    string(2) "60"
+    ["voucherTypeName"]=>
+    string(15) "Myynninhallinta"
+    ["voucherNumber"]=>
+    string(10) "6023110001"
+    ["voucherDate"]=>
+    string(10) "2023-11-03"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(2) {
+      [0]=>
+      object(stdClass)#478 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(34) "Tampereen Tasorakennus Oy  (1036) "
+        ["amount"]=>
+        int(1540)
+        ["accountNumber"]=>
+        string(4) "1701"
+        ["accountName"]=>
+        string(29) "Myyntisaamiset, iso reskontra"
+      }
+      [1]=>
+      object(stdClass)#479 (6) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(43) "Kirvestyö * 40, Tampereen Tasorakennus Oy "
+        ["amount"]=>
+        int(-1540)
+        ["accountNumber"]=>
+        string(4) "3090"
+        ["accountName"]=>
+        string(24) "Rakentamispalvelu myynti"
+        ["vat"]=>
+        object(stdClass)#480 (2) {
+          ["vatCode"]=>
+          string(1) "u"
+          ["vatAmount"]=>
+          int(0)
+        }
+      }
+    }
+  }
+  [41]=>
+  object(stdClass)#481 (8) {
+    ["voucherType"]=>
+    string(2) "60"
+    ["voucherTypeName"]=>
+    string(15) "Myynninhallinta"
+    ["voucherNumber"]=>
+    string(10) "6023110002"
+    ["voucherDate"]=>
+    string(10) "2023-11-03"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(2) {
+      [0]=>
+      object(stdClass)#482 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(34) "Tampereen Tasorakennus Oy  (1036) "
+        ["amount"]=>
+        int(3003)
+        ["accountNumber"]=>
+        string(4) "1701"
+        ["accountName"]=>
+        string(29) "Myyntisaamiset, iso reskontra"
+      }
+      [1]=>
+      object(stdClass)#483 (6) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(43) "Kirvestyö * 78, Tampereen Tasorakennus Oy "
+        ["amount"]=>
+        int(-3003)
+        ["accountNumber"]=>
+        string(4) "3090"
+        ["accountName"]=>
+        string(24) "Rakentamispalvelu myynti"
+        ["vat"]=>
+        object(stdClass)#484 (2) {
+          ["vatCode"]=>
+          string(1) "u"
+          ["vatAmount"]=>
+          int(0)
+        }
+      }
+    }
+  }
+  [42]=>
+  object(stdClass)#485 (8) {
+    ["voucherType"]=>
+    string(2) "60"
+    ["voucherTypeName"]=>
+    string(15) "Myynninhallinta"
+    ["voucherNumber"]=>
+    string(10) "6023110003"
+    ["voucherDate"]=>
+    string(10) "2023-11-24"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(2) {
+      [0]=>
+      object(stdClass)#486 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(34) "Tampereen Tasorakennus Oy  (1036) "
+        ["amount"]=>
+        int(1540)
+        ["accountNumber"]=>
+        string(4) "1701"
+        ["accountName"]=>
+        string(29) "Myyntisaamiset, iso reskontra"
+      }
+      [1]=>
+      object(stdClass)#487 (6) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(43) "Kirvestyö * 40, Tampereen Tasorakennus Oy "
+        ["amount"]=>
+        int(-1540)
+        ["accountNumber"]=>
+        string(4) "3090"
+        ["accountName"]=>
+        string(24) "Rakentamispalvelu myynti"
+        ["vat"]=>
+        object(stdClass)#488 (2) {
+          ["vatCode"]=>
+          string(1) "u"
+          ["vatAmount"]=>
+          int(0)
+        }
+      }
+    }
+  }
+  [43]=>
+  object(stdClass)#489 (8) {
+    ["voucherType"]=>
+    string(2) "60"
+    ["voucherTypeName"]=>
+    string(15) "Myynninhallinta"
+    ["voucherNumber"]=>
+    string(10) "6023120001"
+    ["voucherDate"]=>
+    string(10) "2023-12-01"
+    ["accountingPeriod"]=>
+    int(202312)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(2) {
+      [0]=>
+      object(stdClass)#490 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(34) "Tampereen Tasorakennus Oy  (1036) "
+        ["amount"]=>
+        float(1501.5)
+        ["accountNumber"]=>
+        string(4) "1701"
+        ["accountName"]=>
+        string(29) "Myyntisaamiset, iso reskontra"
+      }
+      [1]=>
+      object(stdClass)#491 (6) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(43) "Kirvestyö * 39, Tampereen Tasorakennus Oy "
+        ["amount"]=>
+        float(-1501.5)
+        ["accountNumber"]=>
+        string(4) "3090"
+        ["accountName"]=>
+        string(24) "Rakentamispalvelu myynti"
+        ["vat"]=>
+        object(stdClass)#492 (2) {
+          ["vatCode"]=>
+          string(1) "u"
+          ["vatAmount"]=>
+          int(0)
+        }
+      }
+    }
+  }
+  [44]=>
+  object(stdClass)#493 (8) {
+    ["voucherType"]=>
+    string(2) "60"
+    ["voucherTypeName"]=>
+    string(15) "Myynninhallinta"
+    ["voucherNumber"]=>
+    string(10) "6023120002"
+    ["voucherDate"]=>
+    string(10) "2023-12-15"
+    ["accountingPeriod"]=>
+    int(202312)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(2) {
+      [0]=>
+      object(stdClass)#494 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(34) "Tampereen Tasorakennus Oy  (1036) "
+        ["amount"]=>
+        int(2772)
+        ["accountNumber"]=>
+        string(4) "1701"
+        ["accountName"]=>
+        string(29) "Myyntisaamiset, iso reskontra"
+      }
+      [1]=>
+      object(stdClass)#495 (6) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(43) "Kirvestyö * 72, Tampereen Tasorakennus Oy "
+        ["amount"]=>
+        int(-2772)
+        ["accountNumber"]=>
+        string(4) "3090"
+        ["accountName"]=>
+        string(24) "Rakentamispalvelu myynti"
+        ["vat"]=>
+        object(stdClass)#496 (2) {
+          ["vatCode"]=>
+          string(1) "u"
+          ["vatAmount"]=>
+          int(0)
+        }
+      }
+    }
+  }
+  [45]=>
+  object(stdClass)#497 (8) {
+    ["voucherType"]=>
+    string(2) "60"
+    ["voucherTypeName"]=>
+    string(15) "Myynninhallinta"
+    ["voucherNumber"]=>
+    string(10) "6023120003"
+    ["voucherDate"]=>
+    string(10) "2023-12-22"
+    ["accountingPeriod"]=>
+    int(202312)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(2) {
+      [0]=>
+      object(stdClass)#498 (5) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(34) "Tampereen Tasorakennus Oy  (1036) "
+        ["amount"]=>
+        int(1463)
+        ["accountNumber"]=>
+        string(4) "1701"
+        ["accountName"]=>
+        string(29) "Myyntisaamiset, iso reskontra"
+      }
+      [1]=>
+      object(stdClass)#499 (6) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(43) "Kirvestyö * 38, Tampereen Tasorakennus Oy "
+        ["amount"]=>
+        int(-1463)
+        ["accountNumber"]=>
+        string(4) "3090"
+        ["accountName"]=>
+        string(24) "Rakentamispalvelu myynti"
+        ["vat"]=>
+        object(stdClass)#500 (2) {
+          ["vatCode"]=>
+          string(1) "u"
+          ["vatAmount"]=>
+          int(0)
+        }
+      }
+    }
+  }
+  [46]=>
+  object(stdClass)#501 (8) {
+    ["voucherType"]=>
+    string(2) "99"
+    ["voucherTypeName"]=>
+    string(7) "E-Tasku"
+    ["voucherNumber"]=>
+    string(11) "99231100001"
+    ["voucherDate"]=>
+    string(10) "2023-11-07"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(3) {
+      [0]=>
+      object(stdClass)#502 (6) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(23) "Neste T#20908102 Diesel"
+        ["amount"]=>
+        float(40.32)
+        ["accountNumber"]=>
+        string(4) "7530"
+        ["accountName"]=>
+        string(22) "Ajoneuvojen polttoaine"
+        ["vat"]=>
+        object(stdClass)#503 (4) {
+          ["vatCode"]=>
+          string(1) "U"
+          ["vatAmount"]=>
+          float(9.68)
+          ["vatAccount"]=>
+          string(4) "1763"
+          ["vatAccountName"]=>
+          string(30) "Ostojen arvonlisäverosaamiset"
+        }
+      }
+      [1]=>
+      object(stdClass)#504 (5) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(5) "Neste"
+        ["amount"]=>
+        int(-50)
+        ["accountNumber"]=>
+        string(4) "2947"
+        ["accountName"]=>
+        string(7) "E-tasku"
+      }
+      [2]=>
+      object(stdClass)#505 (5) {
+        ["entryNumber"]=>
+        int(999999)
+        ["description"]=>
+        string(17) " Vero (Ostot 24%)"
+        ["amount"]=>
+        float(9.68)
+        ["accountNumber"]=>
+        string(4) "1763"
+        ["accountName"]=>
+        string(30) "Ostojen arvonlisäverosaamiset"
+      }
+    }
+  }
+  [47]=>
+  object(stdClass)#506 (8) {
+    ["voucherType"]=>
+    string(2) "99"
+    ["voucherTypeName"]=>
+    string(7) "E-Tasku"
+    ["voucherNumber"]=>
+    string(11) "99231100002"
+    ["voucherDate"]=>
+    string(10) "2023-11-14"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(3) {
+      [0]=>
+      object(stdClass)#507 (6) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(24) "Teboil T#20908112 Diesel"
+        ["amount"]=>
+        float(40.32)
+        ["accountNumber"]=>
+        string(4) "7530"
+        ["accountName"]=>
+        string(22) "Ajoneuvojen polttoaine"
+        ["vat"]=>
+        object(stdClass)#508 (4) {
+          ["vatCode"]=>
+          string(1) "U"
+          ["vatAmount"]=>
+          float(9.68)
+          ["vatAccount"]=>
+          string(4) "1763"
+          ["vatAccountName"]=>
+          string(30) "Ostojen arvonlisäverosaamiset"
+        }
+      }
+      [1]=>
+      object(stdClass)#509 (5) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(6) "Teboil"
+        ["amount"]=>
+        int(-50)
+        ["accountNumber"]=>
+        string(4) "2947"
+        ["accountName"]=>
+        string(7) "E-tasku"
+      }
+      [2]=>
+      object(stdClass)#510 (5) {
+        ["entryNumber"]=>
+        int(999999)
+        ["description"]=>
+        string(17) " Vero (Ostot 24%)"
+        ["amount"]=>
+        float(9.68)
+        ["accountNumber"]=>
+        string(4) "1763"
+        ["accountName"]=>
+        string(30) "Ostojen arvonlisäverosaamiset"
+      }
+    }
+  }
+  [48]=>
+  object(stdClass)#511 (8) {
+    ["voucherType"]=>
+    string(2) "99"
+    ["voucherTypeName"]=>
+    string(7) "E-Tasku"
+    ["voucherNumber"]=>
+    string(11) "99231100003"
+    ["voucherDate"]=>
+    string(10) "2023-11-17"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(3) {
+      [0]=>
+      object(stdClass)#512 (6) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(35) "Tokmanni T#20908122 Moottoriöljyä"
+        ["amount"]=>
+        float(6.36)
+        ["accountNumber"]=>
+        string(4) "7540"
+        ["accountName"]=>
+        string(29) "Ajoneuvojen huolto ja korjaus"
+        ["vat"]=>
+        object(stdClass)#513 (4) {
+          ["vatCode"]=>
+          string(1) "U"
+          ["vatAmount"]=>
+          float(1.53)
+          ["vatAccount"]=>
+          string(4) "1763"
+          ["vatAccountName"]=>
+          string(30) "Ostojen arvonlisäverosaamiset"
+        }
+      }
+      [1]=>
+      object(stdClass)#514 (5) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(8) "Tokmanni"
+        ["amount"]=>
+        float(-7.89)
+        ["accountNumber"]=>
+        string(4) "2947"
+        ["accountName"]=>
+        string(7) "E-tasku"
+      }
+      [2]=>
+      object(stdClass)#515 (5) {
+        ["entryNumber"]=>
+        int(999999)
+        ["description"]=>
+        string(17) " Vero (Ostot 24%)"
+        ["amount"]=>
+        float(1.53)
+        ["accountNumber"]=>
+        string(4) "1763"
+        ["accountName"]=>
+        string(30) "Ostojen arvonlisäverosaamiset"
+      }
+    }
+  }
+  [49]=>
+  object(stdClass)#516 (8) {
+    ["voucherType"]=>
+    string(2) "99"
+    ["voucherTypeName"]=>
+    string(7) "E-Tasku"
+    ["voucherNumber"]=>
+    string(11) "99231100004"
+    ["voucherDate"]=>
+    string(10) "2023-11-21"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(3) {
+      [0]=>
+      object(stdClass)#517 (6) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(24) "Teboil T#20908136 Diesel"
+        ["amount"]=>
+        float(40.32)
+        ["accountNumber"]=>
+        string(4) "7530"
+        ["accountName"]=>
+        string(22) "Ajoneuvojen polttoaine"
+        ["vat"]=>
+        object(stdClass)#518 (4) {
+          ["vatCode"]=>
+          string(1) "U"
+          ["vatAmount"]=>
+          float(9.68)
+          ["vatAccount"]=>
+          string(4) "1763"
+          ["vatAccountName"]=>
+          string(30) "Ostojen arvonlisäverosaamiset"
+        }
+      }
+      [1]=>
+      object(stdClass)#519 (5) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(6) "Teboil"
+        ["amount"]=>
+        int(-50)
+        ["accountNumber"]=>
+        string(4) "2947"
+        ["accountName"]=>
+        string(7) "E-tasku"
+      }
+      [2]=>
+      object(stdClass)#520 (5) {
+        ["entryNumber"]=>
+        int(999999)
+        ["description"]=>
+        string(17) " Vero (Ostot 24%)"
+        ["amount"]=>
+        float(9.68)
+        ["accountNumber"]=>
+        string(4) "1763"
+        ["accountName"]=>
+        string(30) "Ostojen arvonlisäverosaamiset"
+      }
+    }
+  }
+  [50]=>
+  object(stdClass)#521 (8) {
+    ["voucherType"]=>
+    string(2) "99"
+    ["voucherTypeName"]=>
+    string(7) "E-Tasku"
+    ["voucherNumber"]=>
+    string(11) "99231100005"
+    ["voucherDate"]=>
+    string(10) "2023-11-26"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(3) {
+      [0]=>
+      object(stdClass)#522 (6) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(24) "Teboil T#20908146 Diesel"
+        ["amount"]=>
+        float(40.32)
+        ["accountNumber"]=>
+        string(4) "7530"
+        ["accountName"]=>
+        string(22) "Ajoneuvojen polttoaine"
+        ["vat"]=>
+        object(stdClass)#523 (4) {
+          ["vatCode"]=>
+          string(1) "U"
+          ["vatAmount"]=>
+          float(9.68)
+          ["vatAccount"]=>
+          string(4) "1763"
+          ["vatAccountName"]=>
+          string(30) "Ostojen arvonlisäverosaamiset"
+        }
+      }
+      [1]=>
+      object(stdClass)#524 (5) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(6) "Teboil"
+        ["amount"]=>
+        int(-50)
+        ["accountNumber"]=>
+        string(4) "2947"
+        ["accountName"]=>
+        string(7) "E-tasku"
+      }
+      [2]=>
+      object(stdClass)#525 (5) {
+        ["entryNumber"]=>
+        int(999999)
+        ["description"]=>
+        string(17) " Vero (Ostot 24%)"
+        ["amount"]=>
+        float(9.68)
+        ["accountNumber"]=>
+        string(4) "1763"
+        ["accountName"]=>
+        string(30) "Ostojen arvonlisäverosaamiset"
+      }
+    }
+  }
+  [51]=>
+  object(stdClass)#526 (8) {
+    ["voucherType"]=>
+    string(2) "99"
+    ["voucherTypeName"]=>
+    string(7) "E-Tasku"
+    ["voucherNumber"]=>
+    string(11) "99231100006"
+    ["voucherDate"]=>
+    string(10) "2023-11-26"
+    ["accountingPeriod"]=>
+    int(202311)
+    ["fiscalYearId"]=>
+    string(4) "2023"
+    ["isDeleted"]=>
+    bool(false)
+    ["voucherEntries"]=>
+    array(3) {
+      [0]=>
+      object(stdClass)#527 (6) {
+        ["entryNumber"]=>
+        int(1)
+        ["description"]=>
+        string(29) "Tokmanni T#20908170 Työkalut"
+        ["amount"]=>
+        float(20.86)
+        ["accountNumber"]=>
+        string(4) "4000"
+        ["accountName"]=>
+        string(14) "Ostot alv 24 %"
+        ["vat"]=>
+        object(stdClass)#528 (4) {
+          ["vatCode"]=>
+          string(1) "U"
+          ["vatAmount"]=>
+          float(5.01)
+          ["vatAccount"]=>
+          string(4) "1763"
+          ["vatAccountName"]=>
+          string(30) "Ostojen arvonlisäverosaamiset"
+        }
+      }
+      [1]=>
+      object(stdClass)#529 (5) {
+        ["entryNumber"]=>
+        int(2)
+        ["description"]=>
+        string(8) "Tokmanni"
+        ["amount"]=>
+        float(-25.87)
+        ["accountNumber"]=>
+        string(4) "2947"
+        ["accountName"]=>
+        string(7) "E-tasku"
+      }
+      [2]=>
+      object(stdClass)#530 (5) {
+        ["entryNumber"]=>
+        int(999999)
+        ["description"]=>
+        string(17) " Vero (Ostot 24%)"
+        ["amount"]=>
+        float(5.01)
+        ["accountNumber"]=>
+        string(4) "1763"
+        ["accountName"]=>
+        string(30) "Ostojen arvonlisäverosaamiset"
+      }
+    }
+  }
+}
+-
+---------------
+
+
+DONE
+

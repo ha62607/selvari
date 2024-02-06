@@ -1163,7 +1163,8 @@ $data = getUserTransFull($_SESSION['uid'],$mon,$year);
         $selite =  $explain." ".$amount;
 
 
-        $tdate = date_create( $data[$i]['bookingDate']);
+        //$tdate = date_create( $data[$i]['bookingDate']);
+        $tdate = date_create_from_format("ymd",$data[$i]['bookingDate']);
         $boodate = date_format($tdate,"j.n");
 
         $acval = 'gone'.$i;

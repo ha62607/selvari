@@ -435,16 +435,24 @@ foreach ($COMPANY_ARRAY as $COMPANY) {
         $uid = get_company_uid($company_cuid);
         foreach ($ALL_VOUCHERS as $VOUCHER) {
             $voucher_data = get_object_vars($VOUCHER);
-            $entries = $voucher_data['voucherEntries'][0];
-            $accountnum = get_object_vars($entries);
-            //echo "\n\n Num: ".$accountnum['accountNumber']."\n\n";
-            if (intval($accountnum['accountNumber']) === 1777)
-            {
-                saveVoucher($voucher_data,$uid);
-                //print_r($voucher_data);
+            //Let's loop entries
+            $entrysize = sizeof($voucher_data['voucherEntries']);
 
+            for ($i = 0; $i < $entrysize; $i++)
+            {
+                $entries = $voucher_data['voucherEntries'][$i];
+                $accountnum = get_object_vars($entries);
+                //echo "\n\n Num: ".$accountnum['accountNumber']."\n\n";
+                if (intval($accountnum['accountNumber']) === 1777)
+                {
+                    saveVoucher($voucher_data,$uid);
+                    //print_r($voucher_data);
+
+                }
             }
+
         }
+
 
 
     }

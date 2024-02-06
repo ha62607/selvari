@@ -163,6 +163,36 @@ include('header.php');
             </table>
 
 
+            <br/>
+            <br/>
+            <br/>
+<h4>Testausta varten olevat toiminnot (Jaakolle)</h4>
+            <br/>
+<?php
+if (isset($_REQUEST['do']))
+{
+    $do = $_REQUEST['do'];
+    if ($do === 'truncate')
+    {
+       $res =  exec($TRUNCATE_TABLES);
+        echo ("<i>Tilitapahtumat tyhjennetty</i><br/>");
+    }
+
+    else if ($do === 'loaddata')
+    {
+        $res =  exec($GET_NEW_DATA);
+        echo ("<i>Uusi aineisto noudetaan Fivaldidi API:sta (Kesto 5-10 sec)</i><br/>");
+
+    }
+
+
+}
+
+?>
+
+<a href="./files.php?do=truncate">Tyhjennä tietokannan tilitapahtumat &rsaquo;</a>
+<br/><br/>
+<a href="./files.php?do=loaddata">Hae tapahtumat uudestaan Fivaldi API:sta &rsaquo;</a>
 
         </div>
     </div>

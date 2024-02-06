@@ -102,7 +102,7 @@ if (!isset($title))
                     <a class="nav-link" aria-current="" href="./index.php">Etusivu</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./bank.php">Pankkitapahtumat</a>
+                    <a class="nav-link" href="./bank.php">Tilitapahtumat</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="./files.php">Tiedostot</a>
