@@ -437,7 +437,7 @@ function getUserTransFull($uid,$mon='0',$year='0',$cache=true)
         if (is_numeric($mon) && is_numeric($year))
         {
 
-            $SQL = "SELECT tid,bookingDate,creditorName,debtorName,amount,remittanceInformationUnstructured,transactionId, status,selite,kuitit,bban,tilit from trans WHERE uid=? AND boomonth=? AND booyear=? ORDER BY boodate DESC";
+            $SQL = "SELECT tid,bookingDate,creditorName,debtorName,amount,remittanceInformationUnstructured,transactionId, status,selite,kuitit,bban,tilit,vt from trans WHERE uid=? AND boomonth=? AND booyear=? ORDER BY boodate DESC";
 
             error_log($SQL);
 
@@ -461,7 +461,7 @@ function getUserTransFull($uid,$mon='0',$year='0',$cache=true)
     }
     else
     {
-        $SQL = "SELECT tid,bookingDate,creditorName,debtorName,amount,remittanceInformationUnstructured,transactionId, status,selite,kuitit,bban,tilit from trans WHERE uid=? ORDER BY boodate DESC limit 0,200";
+        $SQL = "SELECT tid,bookingDate,creditorName,debtorName,amount,remittanceInformationUnstructured,transactionId, status,selite,kuitit,bban,tilit,vt from trans WHERE uid=? ORDER BY boodate DESC limit 0,200";
 
 
 
