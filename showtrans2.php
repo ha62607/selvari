@@ -1049,7 +1049,7 @@ $data = getUserTransFull($_SESSION['uid'],$mon,$year);
 
 
     </div>
-
+    <!--
     <div style="" class="kassarow">
 
     Tulot: <span id="tulot" class="tulosdata" style="color: green;"></span>
@@ -1057,6 +1057,7 @@ $data = getUserTransFull($_SESSION['uid'],$mon,$year);
     Tulos: <span id="kassa" class="tulosdata"></span>
 
     </div>
+    -->
 
 
     <div class="accordion accordion-flush" id="accordionExample" >
@@ -1113,6 +1114,10 @@ $data = getUserTransFull($_SESSION['uid'],$mon,$year);
         $small = substr($explain,0,20);
 
         $amount = $data[$i]['amount'];
+        $vt_amount =  $data[$i]['amount'];
+        $vt = $data[$i]['vt'];
+
+
 
         $tid = $data[$i]['tid'];
         $transid = $data[$i]['transactionId'];
@@ -1135,11 +1140,14 @@ $data = getUserTransFull($_SESSION['uid'],$mon,$year);
 
         $color = "red";
 
-        $raha = floatval($amount);
 
+
+        $raha = floatval($amount);
+        /*
         if ( $raha > 0)
         {
-            $color = "green";
+            $color = "red";
+
             $tulot = $tulot + $raha;
 
         }
@@ -1147,6 +1155,19 @@ $data = getUserTransFull($_SESSION['uid'],$mon,$year);
         {
             $menot = $menot + $raha;
         }
+        */
+        error_log(" VT_AMOUNT: ".$vt_amount."  VT: ".$vt."\n\n");
+
+        if ( intval($vt_amount) > 0 && intval($vt) === 1 ) 
+        {
+            error_log("Goes green ....\n");
+            $color = "green";
+
+        }
+
+        $amount = floatval($amount);
+        $amount = -1 * abs($amount);
+
 
         $status = trim($data[$i]['status']);
 
