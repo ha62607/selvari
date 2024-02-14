@@ -1138,7 +1138,7 @@ $data = getUserTransFull($_SESSION['uid'],$mon,$year);
 
         }
 
-        $color = "red";
+        $color = "green";
 
 
 
@@ -1156,17 +1156,29 @@ $data = getUserTransFull($_SESSION['uid'],$mon,$year);
             $menot = $menot + $raha;
         }
         */
-        error_log(" VT_AMOUNT: ".$vt_amount."  VT: ".$vt."\n\n");
+        $amount = floatval($amount);
 
-        if ( intval($vt_amount) > 0 && intval($vt) === 1 ) 
+        //error_log(" VT_AMOUNT: ".$vt_amount."  VT: ".$vt."\n\n");
+
+        if ( floatval($vt_amount) > 0 && intval($vt) === 1 ) 
         {
-            error_log("Goes green ....\n");
-            $color = "green";
+            $color = "red";
+            $amount = -1 * abs($amount);
 
         }
+        else if ( floatval($vt_amount) < 0 && intval($vt) === 1 ) 
+        {
+            error_log("Goes green in: ".$amount."  ....\n");
+            $amount =  abs($amount);
+            error_log("Goes green out: ".$amount." ....\n");
+  
+        }
 
-        $amount = floatval($amount);
-        $amount = -1 * abs($amount);
+        else if (floatval($amount) < 0)
+        {
+           // $amount = -1 * abs($amount);
+  
+        }
 
 
         $status = trim($data[$i]['status']);
